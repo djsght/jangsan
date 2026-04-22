@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>장산콘도</title>
+    <link>http://jangsancondo.com/</link>
+    <description>장산콘도 홈페이지 입니다.</description>
+    <item>
+      <title>장산콘도</title>
+      <link>http://jangsancondo.com/</link>
+      <description>장산콘도 메인</description>
+      <pubdate>Fri, 10 June 2022 19:00:00 +0000</pubdate>
+      <guid>http://jangsancondo.com/</guid>
+    </item>
+  </channel>
+</rss>

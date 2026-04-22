@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+.main-picture{ min-width: initial; height: auto; background: url(/img/main-img.jpg) no-repeat center 0; background-size: auto 20rem;}
+/* 임시 글귀 용*/
+.main-picture > p{ bottom: auto; top: 5rem; font-size: 1rem;}
+.main-picture > p::before{ content: url(/img/jangsan-logo_M.png); padding-right: .25rem; vertical-align: -.15rem;}
+
+.reservation-bar-container{ position: static; transform: none; padding-top: 20rem; width: 100%; height: auto; background-color: transparent; }
+.reservation-bar{ display: flex; flex-wrap: wrap;}
+
+.reservation-bar li{ flex: 1 1 33%; padding: 0; width: auto; height: 3.5rem; vertical-align: baseline;}
+.reservation-bar li.check-in,
+.reservation-bar li.check-out{ padding: 0; width: auto; flex: 1 1 50%; height: 3rem;}
+.reservation-bar li.headcount-children{ width: auto;}
+.reservation-bar li .reserv-title{ padding: .3rem 1.25rem .15rem; font-size: .6rem; }
+.reservation-bar li.check-in .reserv-title,
+.reservation-bar li.check-out .reserv-title{ padding: .3rem 1.25rem .15rem;}
+.reservation-bar li select{ padding: 0 1.25rem; width: 100%; font-size: .9rem; background: url(/img/reservation_button.png) calc(100% - 1.25rem) center no-repeat;}
+.reservation-bar li input[type=text]{ font-size: .9rem; text-indent: 1.25rem;}
+.reservation-bar li button{ right: 1.25rem; top: auto; bottom: .5rem; transform: none; width: 15px; height: 13px; background: url('/img/reservation_button.png') no-repeat center; font-size: 0; }
+.reservation-bar .search-button{ width: 100%;  flex: 1 1 100%;}
+.reservation-bar .search-button a{ line-height: 3rem; font-size: .9rem;}
+
+.main-contents{ position: relative; padding: 1.25rem 0 1.5rem; min-width: initial;}
+.main-contents h2{ margin-bottom: 1.25rem; width: 10rem; font-size: 1.1rem;}
+.main-contents h2 span{ margin-top: .15rem; padding-top: .15rem; border-top: .05px solid #CDCBBE; font-size: .7rem;}
+
+.intro{ padding: 1.5rem .25rem .6rem; width: calc(100% - .5rem);}
+.intro p{ margin-bottom: .9rem; font-size: .6rem; word-break: keep-all;}
+
+.swiper{ width: 100%; height: auto;}
+.swiper.accommSwiper, .swiper.facilSwiper{ height: auto;}
+.swiper-slide .so-card > img{ display: block; width: 100%; height: 10.85rem;}
+.swiper-slide .so-card .card-container{ display: block; width: 100%; vertical-align: baseline;}
+.swiper-slide .so-card .card-container a{ display: block; margin: 1rem .75rem 1rem auto; width: 3.5rem; height: 1.25rem; border-radius: .9rem; font-size: .6rem; line-height: 1.25rem;}
+.swiper-slide .so-card .card-container .card-title{ margin: .75rem; text-align: left;}
+.swiper-slide .so-card .card-container .card-title span{ padding-bottom: .25rem; border-bottom: .05rem solid #3E2B2C; font-size: 1.1rem;}
+.swiper-slide .so-card .card-container .card-title span:last-child{ padding: .25rem 0; font-size: 1rem; color: #856F57;}
+.swiper-slide .so-card .card-container .card-content{ padding: 0 .75rem; width: calc(100% - 1.5rem); font-size: .7rem; line-height: 1rem;}
+.swiper-slide .so-card .card-container .accomm-gallary{ padding-bottom: 3.5rem;}
+.swiper-slide .so-card .card-container .accomm-gallary img{ width: 3.7rem; height: 3.7rem; margin-right: .2rem;}
+.swiper-slide .so-card .card-container .accomm-gallary img.active{ border: .25rem solid #AF8D5D;}
+.page-number{ bottom: 1.25rem; right: 3.45rem; font-size: .7rem;}
+
+
+.dining .container{ display: flex; flex-direction: column; }
+
+.dining-card{ display: block; position: relative; margin: .75rem .75rem; width: calc(100% - 1.5rem); order: 3;}
+.dining-card img{ display: inline-block; width: 50%; height: 6.25rem;}
+.dining-card a{ position: absolute; top: 2.5rem; right: 0; margin: 0; width: 3.5rem; height: 1.25rem; border-radius: .9rem; font-size: .6rem; line-height: 1.25rem;}
+.dining-card .card-title{ padding-top: .75rem;}
+.dining-card .card-title span{ padding-bottom: .25rem; border-bottom: .05rem solid #3E2B2C; font-size: 1.1rem;}
+.dining-card .card-title span:last-child{ padding: .25rem 0 0; font-size: 1rem;}
+.dining-card .card-content{ padding: 1rem 0 1.25rem; width: 100%; font-size: .7rem; line-height: 1rem;}
+.dining-picture{ display: block; width: 100%; vertical-align: baseline; order: 2;}
+.dining-picture ul li{ border-bottom: .1rem solid #BEBEBE;}
+.dining-picture ul li a{ padding-bottom: .1rem; line-height: 1rem; font-size: .7rem; text-align: center;}
+.dining-picture img{ padding-top: 1rem; width: 100%; height: 10.85rem;}
+
+.facil .swiper-slide .so-card .card-container{ padding-bottom: 2.5rem;}
+
+.swiper-button-prev,
+.swiper-button-next{ bottom: 1rem; width: 1.5rem; height: 1.5rem; background-size: 1.5rem 1.5rem;}
+.swiper-button-prev{ right: 5.75rem;}
+.swiper-button-next{ right: .75rem;}

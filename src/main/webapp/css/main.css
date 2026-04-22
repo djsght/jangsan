@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+.main-picture{ position: relative; width: 100%; min-width: 1320px; height: 850px; background: no-repeat center; background-image: url("/img/main-img.png"); background-size: cover;}
+/* 임시 글귀 용*/
+.main-picture > p{ position: absolute; left: 50%; transform: translateX(-50%); bottom: 120px; width: 100%; font-size: 40px; color: #FFFFFF; text-align: center; text-shadow: 0 5px 6px rgba(0,0,0); font-family: NanumMyeongjo;}
+.main-picture > p::before{ content: url(/img/jangsan-logo-temp.png); padding-right: 15px; font-size: 0; vertical-align: -13px;}
+.main-picture > p span{ color: #F8F282;}
+
+.reservation-bar-container{ position: absolute; left: 50%; transform: translateX(-50%); bottom: -45px; width: 1200px; height: 90px; background-color: #fff; box-shadow: 0 3px 6px rgba(0,0,0,.16); z-index: 20;}
+.reservation-bar{ position: relative; width: 100%; text-align: center; font-size: 0;}
+
+.reservation-bar li{ display: inline-block; position: relative; padding: 0; width: 165px; height: 100%; vertical-align: top;}
+.reservation-bar li.check-in,
+.reservation-bar li.check-out{ padding: 0 40px; width: 170px;}
+.reservation-bar li.headcount-children{ width: 170px;}
+.reservation-bar li .reserv-title{ display: block; padding: 14px 30px 5px; text-align: left; font-size: 16px; color: #888888;}
+.reservation-bar li.check-in .reserv-title,
+.reservation-bar li.check-out .reserv-title{ padding: 14px 0 5px;}
+.reservation-bar li select{ padding: 0 30px; width: 100%; font-size: 22px; border: 0; text-align: left; background: url(/img/reservation_button.png) calc(100% - 30px) center no-repeat; -webkit-appearance:none; -moz-appearance:none; appearance:none;}
+.reservation-bar li input[type=text]{ font-size: 22px; text-indent: 0; border: 0; }
+.reservation-bar li button{ position: absolute; right: 40px; top: 60px; transform: translateY(-50%); width: 15px; height: 13px; background: url('/img/reservation_button.png') no-repeat center; font-size: 0; }
+.reservation-bar .search-button{ padding: 0; width: 200px;}
+.reservation-bar .search-button a{ display: block; width: 100%; background-color: #AF8D5D; line-height: 90px; font-size: 22px; color: #fff; cursor: pointer;}
+
+.main-contents{ position: relative; padding: 60px 0 90px; width: 100%; min-width: 1320px; font-size: 0;}
+.main-contents h2{ display: block; position: relative; margin: 0 auto 60px; width: 240px; font-size: 30px; font-weight: 500; color: #333333; text-align: center;}
+.main-contents h2 span{ display: block; padding-top: 3px; border-top: 1px solid #CDCBBE; font-size: 16px; font-weight: 500; color: #856F57; letter-spacing: 5px;}
+
+.intro{ position: relative; padding: 132px 0 58px; background: url('/img/main-pattern-img.png') no-repeat center;}
+.intro::before{ content: ""; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: #fff; opacity: .8;}
+.intro p{ position: relative; margin-bottom: 29px; font-size: 20px; color: #000000; text-align: center;}
+
+.accomm{ background-color: #FBF9F5;}
+.dining{ background-color: #fff;}
+.facil{ background-color: #F9F9F9;}
+.swiper{ width: 1200px; height: 675px;}
+.swiper.accommSwiper, .swiper.facilSwiper{ height: 530px;}
+.swiper-slide{ text-align: center;}
+.swiper-slide .so-card{ background: #fff; font-size: 0;}
+.swiper-slide .so-card > img{ display: inline-block; width: 830px; height: 530px;}
+.swiper-slide .so-card .card-container{ display: inline-block; width: calc(100% - 830px); font-size: 0; vertical-align: top;}
+.swiper-slide .so-card .card-container a{ display: block; margin: 30px 0 30px 265px; width: 80px; height: 30px; background-color: #856F57; border-radius: 18px; font-size: 14px; line-height: 30px; color: #fff;}
+.swiper-slide .so-card .card-container .card-title{ display: block; position: relative; margin: 25px; text-align: left; box-sizing: border-box;}
+.swiper-slide .so-card .card-container .card-title span{ display: block; padding-bottom: 5px; width: 100%; border-bottom: 1px solid #707070; font-size: 30px; color: #2F2F2F; }
+.swiper-slide .so-card .card-container .card-title span:last-child{ padding: 5px 0; font-size: 25px; color: #856F57; border: 0; text-align: right;}
+.swiper-slide .so-card .card-container .card-content{ padding: 0 28px; width: calc(100% - 56px); font-size: 18px; line-height: 27px; color: #666666; text-align: left; word-break: keep-all;}
+.swiper-slide .so-card .card-container .accomm-gallary{ width: 100%; font-size: 0;}
+.swiper-slide .so-card .card-container .accomm-gallary img{ position: relative; width: 80px; height: 80px; margin-right: 5px; object-fit: cover; box-sizing: border-box; filter: brightness(50%); cursor: pointer;}
+.swiper-slide .so-card .card-container .accomm-gallary img:last-child{ margin: 0;}
+.swiper-slide .so-card .card-container .accomm-gallary img.active{ border: 5px solid #AF8D5D; filter: brightness(100%); cursor: initial;}
+.page-number{ display: block; position: absolute; bottom: 36px; right: 93px; font-size: 20px; color: #2F2F2F; text-align: left; z-index: 10;}
+
+.dining-card{ display: inline-block; margin-right: 50px; width: 320px; font-size: 0;}
+.dining-card img{ display: block; width: 100%; height: 220px;}
+.dining-card a{ display: block; margin: 30px 0 40px 240px; width: 80px; height: 30px; background-color: #856F57; border-radius: 18px; font-size: 14px; line-height: 30px; color: #fff; text-align: center;}
+.dining-card .card-title{ display: block; position: relative; text-align: left; box-sizing: border-box;}
+.dining-card .card-title span{ display: block; padding-bottom: 5px; width: 100%; border-bottom: 1px solid #3E2B2C; font-size: 30px; color: #2F2F2F;}
+.dining-card .card-title span:last-child{ padding: 0; font-size: 25px; color: #856F57; border: 0; text-align: right;}
+.dining-card .card-content{ padding: 30px 0; width: 100%; font-size: 18px; line-height: 27px; color: #666666; text-align: left; word-break: keep-all;}
+.dining-picture{ display: inline-block; width: calc(100% - 370px); vertical-align: top;}
+.dining-picture ul{ font-size: 0;}
+.dining-picture ul li{ display: inline-block; width: calc(100% / 3); border-bottom: 2px solid #BEBEBE;}
+.dining-picture ul li.active{ border-bottom-color: #333333;}
+.dining-picture ul li a{ display: block; width: 100%; line-height: 50px; font-size: 20px; color: #434343; cursor: pointer;}
+.dining-picture img{ display: block; padding-top: 40px; width: 830px; height: 530px;}
+
+.swiper-button-prev,
+.swiper-button-next{ top: auto; bottom: 30px; width: 40px; height: 40px;}
+.swiper-button-prev{ left: auto; right: 160px; background-image: url('/img/main-swiper-prev.png');}
+.swiper-button-next{ right: 20px; background-image: url('/img/main-swiper-next.png');}
+/* swiper의 default 버튼 이미지 없애기 */
+.swiper-button-prev::after,
+.swiper-button-next::after{ display:none;}
+.swiper-button-prev:focus,
+.swiper-button-next:focus{ outline: none;}
+
+
+/* datepicker 커스텀 */
+.ui-widget-header { border: 0px solid #dddddd; background: #fff; } 
+.ui-datepicker-calendar>thead>tr>th { font-size: 14px !important; } 
+.ui-datepicker .ui-datepicker-header { position: relative; padding: 10px 0; } 
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active { border: 0px solid #c5c5c5; background-color: transparent; font-weight: normal; color: #454545; text-align: center; } 
+.ui-datepicker .ui-datepicker-title { margin: 0 0em; line-height: 16px; text-align: center; font-size: 14px; padding: 0px; font-weight: bold; } 
+.ui-datepicker { display: none; background-color: #fff; border-radius: 4px; margin-top: 10px; margin-left: 0px; margin-right: 0px; padding: 20px; padding-bottom: 10px; width: 300px; box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1); } 
+.ui-widget.ui-widget-content { border: 1px solid #eee; } 
+#datepicker:focus>.ui-datepicker { display: block; } 
+.ui-datepicker-prev,
+.ui-datepicker-next { cursor: pointer; } 
+.ui-datepicker-next { float: right; } 
+.ui-state-disabled { cursor: auto; color: hsla(0, 0%, 80%, 1); } 
+.ui-datepicker-title { text-align: center; padding: 10px; font-weight: 100; font-size: 20px; } 
+.ui-datepicker-calendar { width: 100%; } 
+.ui-datepicker-calendar>thead>tr>th { padding: 5px; font-size: 20px; font-weight: 400; } 
+.ui-datepicker-calendar>tbody>tr>td>a { color: #000; font-size: 12px !important; font-weight: bold !important; text-decoration: none;}
+.ui-datepicker-calendar>tbody>tr>.ui-state-disabled:hover { cursor: auto; background-color: #fff; } 
+.ui-datepicker-calendar>tbody>tr>td { border-radius: 100%; width: 44px; height: 30px; cursor: pointer; padding: 5px; font-weight: 100; text-align: center; font-size: 12px; } 
+.ui-datepicker-calendar>tbody>tr>td:hover { background-color: transparent; opacity: 0.6; } 
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus { border: 0px solid #cccccc; background-color: transparent; font-weight: normal; color: #2b2b2b; } 
+.ui-widget-header .ui-icon { background-image: url('/img/btns.png'); } 
+.ui-icon-circle-triangle-e { background-position: -20px 0px; background-size: 36px; } 
+.ui-icon-circle-triangle-w { background-position: -0px -0px; background-size: 36px; } 
+.ui-datepicker-calendar>tbody>tr>td:first-child a { color: red !important; } 
+.ui-datepicker-calendar>tbody>tr>td:last-child a { color: #0099ff !important; } 
+.ui-datepicker-calendar>thead>tr>th:first-child { color: red !important; } 
+.ui-datepicker-calendar>thead>tr>th:last-child { color: #0099ff !important; } 
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight { border: 0px; background: #f1f1f1; border-radius: 50%; padding-top: 10px; padding-bottom: 10px; } 
+.inp { padding: 10px 10px; background-color: #f1f1f1; border-radius: 4px; border: 0px; } 
+.inp:focus { outline: none; background-color: #eee; } 

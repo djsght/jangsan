@@ -1,0 +1,71 @@
+@charset "utf-8";
+@font-face{ font-family: 'NanumMyeongjo'; src: url('/fonts/NanumMyeongjo.woff2') format('woff2'), src: url('/fonts/NanumMyeongjo.woff') format('woff');}
+
+body{ position: relative;}
+
+header{ position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 1320px; height: 160px; margin: 0 auto; z-index: 2;}
+header > h1{ position: absolute; top: 28px; left: 50%; transform:translateX(-50%); font-size: 0;}
+header > h1 > a{ display: block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; font-size: 0;}
+header > h1 > span{ display: block; padding-left: 75px; font-weight: 700; color: #fff;}
+header > h1 > .korean-logo{ font-size: 38px; font-family: NanumMyeongjo; font-weight: normal;}
+header > h1 > .korean-logo::before{ content: ""; display: block; position: absolute; top: 0; left: 0; width: 60px; height: 60px; background: url("/img/jangsan-logo.png") center center no-repeat; background-size: cover;} 
+header > h1 > .english-logo{ padding-left: 80px; font-size: 10px; letter-spacing: 5px;}
+header nav{ padding-top: calc(160px - 50px);}
+header nav .gnb{ text-align: center; font-size: 0;}
+header nav .gnb > li{ display: inline-block; position: relative; padding: 0; vertical-align: top;}
+header nav .gnb > li::after{ content: ""; position: absolute; top: 50%; right: 0; transform: translateY(-50%); width: 1px; height: 15px; background-color: #fff;}
+header nav .gnb > li:last-child::after{ content: none;}
+header nav .gnb > li > a{ display: block; position: relative; padding: 0 46px; font-size: 20px; line-height: 50px; color: #fff;}
+header nav .gnb > li:hover > a,
+header nav .gnb > li > a:focus{ color: #FFE19A;}
+header nav .gnb > li ul{ display: none; position: absolute; left: 46px; top: 50px;  width: max-content; z-index: 10;}
+header nav .gnb > li ul li{ display: block; position: relative;}
+header nav .gnb > li ul li a{ display: block; padding: 6.5px 0; font-size: 16px; color: #fff; text-align: left;}
+header nav .gnb > li ul li a:hover,
+header nav .gnb > li ul li a:focus{ color: #FFE19A;}
+header nav .gnb > li ul li ul{ display: block; position: static; font-size: 0;}
+header nav .gnb > li ul li ul li{ display: inline-block; padding-right: 20px;}
+header nav .gnb > li ul li ul li a{ font-size: 14px; color: #ECECEC;}
+header nav .gnb > li ul li ul li:last-child{ padding-right: 0;}
+header nav .gnb > li ul.active{ display: block;}
+header nav .quick-menu{ position: absolute; top: 26px; right: 16px; font-size: 0;}
+header nav .quick-menu > li{ display: inline-block; position: relative; padding: 0 15px;}
+header nav .quick-menu > li a{ display: block; padding: 0; line-height: 20px; font-size: 14px; color: #fff;}
+header nav .quick-menu > li::after{ content: ""; position: absolute; top: 50%; right: 0px; transform: translateY(-50%); width: 1px; height: 10px; background-color: #fff;}
+header nav .quick-menu > li:last-child::after{ content: none; }
+header .btn-nav{ display: none;} 
+header .close{ display: none;}
+
+.bg-header{ position: absolute; left: 0; right: 0; top: 0; height: 160px; background-color: rgba(0, 0, 0, .4); z-index: 1;}
+.bg-header.active{ background-color: rgba(0, 0, 0, .7);}
+.bg-gnb{ display: none; position: absolute; left: 0; right: 0; top: 160px; height: 430px; background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0, rgba(66, 66, 66, .7) 400px, rgba(66,66,66,0)); z-index: 1;}
+.bg-gnb.active{ display: block; }
+
+/* footer */
+footer{ width:100%; height: 210px; background-color: #000}
+footer .footer-container{ margin: 0 auto; width: 1200px;}
+footer .footer-container .corp-area{ position: relative; font-size: 0;}
+footer .footer-container .corp-area ul{ margin: 25px 0 0  248px; display:inline-block; font-size: 0;}
+footer .footer-container .corp-area ul li{ display: inline-block; position: relative; padding: 0 15px;}
+footer .footer-container .corp-area ul li a{ font-size: 12px; color: #CCCCCC; vertical-align: middle; cursor: pointer;}
+footer .footer-container .corp-area ul li:first-child{ padding-left: 0;}
+footer .footer-container .corp-area ul li::after{ content: ""; position: absolute; top: 50%; transform: translateY(-50%); right: 0; width: 1px; height: 10px; background-color: #CCCCCC;}
+footer .footer-container .corp-area ul li:last-child::after{content: none;}
+footer .footer-container .corp-area select{ position: absolute; top: 16px; right: 0; line-height: 20px; border-radius: 0; font-size: 12px; }
+footer .footer-container .footer-logo{ display: inline-block; margin: 0 86px 42px 0;} 
+footer .footer-container .footer-logo span{ display: inline-block; font-size: 30px; line-height: 127px; color: #fff;}
+footer .footer-container .footer-logo span::before{ content: url("/img/jangsan-logo_small.png"); display: inline-block; padding-right: 12px; line-height: 0; vertical-align: text-bottom; }
+footer .footer-container address{ display: inline-block; margin-top: 30px; font-size: 0; vertical-align: top;}
+footer .footer-container address p{ margin-bottom: 9px; font-size: 12px; color: #fff;}
+footer .footer-container address p a{ color: #fff;}
+footer .footer-container address em{ font-size: 12px; color: #fff;}
+
+.dim{ display: none; position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-color: rgba(255,255,255, .5); z-index: 100;}
+.email-container{ display: none; position: absolute; left: 50%; bottom: 300px; transform: translateX(-50%); width: 412px; z-index: 200; }
+.email-container h3{ padding-left: 20px; width: 100%; line-height: 30px; border: 5px solid #000; background-color: #000; font-size: 20px; color: #fff; box-sizing: border-box;}
+.email-container a{ position: absolute; top: 7.5px; right: 15px; width: 25px; height: 25px; background-image: url('/img/x_icon.png'); background: no-repeat cover; cursor: pointer; }
+.email-container .content{ padding: 25px 27px; border: 5px solid #000; background-color: #fff; }
+.email-container .content span{ display: block; font-size: 14px; color: #222222;}
+.email-container .content span:first-child{ margin-bottom: 15px; font-weight: 700; }
+.email-container .content span:nth-child(2){ margin-bottom: 25px; }
+
