@@ -74,7 +74,7 @@
 				</div>
     		</div>
 			<article class="detail-box etc">
-				<h2>워터풀<span>Water Pool</span></h2>
+				<h2>장산 레스토랑<span>Jangsan Restaurant</span></h2>
 				<p>돔형 워터풀로 사계절 전천후 이용 가능하며 워터슬라이드가 설치되어 있어 가족 동반으로 물놀이를 여유롭게 즐길 수 있습니다. 어린이 풀장은 아이들이 낮은 수심에서 편안하고 안전하게 물놀이를 즐길 수 있는 공간입니다.<br>※ 숙박 고객은 할인 받을 수 있습니다.<br>※ 음식물 반입 금지 입니다.</p>
 				<div class="detail-info">
 					<h3>운영시간</h3>

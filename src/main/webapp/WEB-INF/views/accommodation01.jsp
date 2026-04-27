@@ -7,6 +7,38 @@
 <title>장산콘도 > 객실 > Type A</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
+<script type="text/javascript">
+	$(document).ready(function(){
+		let tablet_width = 720;
+		var thumbs_swiper = new Swiper(".thumbs-swiper", {
+			slidesPerView: 4,
+			freeMode: true,
+			watchSlidesProgress: true,
+			breakpoints:{
+				0:{
+					slidesPerView: 2
+				},
+				720:{
+					slidesPerView: 4
+				}
+			}
+		});
+		var gallary_swiper = new Swiper(".gallary-swiper", {
+			spaceBetween: 10,
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			pagination:{
+				el: ".swiper-pagination",
+				clickable: true
+			},
+			thumbs: {
+				swiper: thumbs_swiper,
+			},
+		}); 
+	}); 
+</script>
 <body>
 	<div class="forward accommodation"></div>
 	<main>
@@ -23,10 +55,38 @@
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="/img/ready.svg" />
+						<img src="<c:url value='/img/webp/accomm_1_1.webp'/>" alt="상품 이미지">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_1_2.webp'/>" alt="상품 이미지">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_1_3.webp'/>" alt="상품 이미지">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_1_4.webp'/>" alt="상품 이미지">
 					</div>
 				</div>
+				<div id="gallary-swiper-next" class="swiper-button-next"></div>
+				<div id="gallary-swiper-prev" class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
 			</div>
+			<div thumbsSlider="" class="swiper thumbs-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_1_1.webp'/>" alt="상품 이미지">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_1_2.webp'/>" alt="상품 이미지">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_1_3.webp'/>" alt="상품 이미지">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_1_4.webp'/>" alt="상품 이미지">
+					</div>
+				</div>
+    		</div>
 			<article class="detail-box">
 				<h2>스탠다드온돌<span>Standard Ondol</span></h2>
 				<p>저렴하면서 실속있게 따뜻한 온돌방을 즐길 수 있는 객실입니다.</p>
