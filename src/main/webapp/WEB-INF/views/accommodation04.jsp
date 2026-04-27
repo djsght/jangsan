@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>태백호텔 > 객실 > 디럭스</title>
+<title>장산콘도 > 객실 > Type D</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -40,38 +40,34 @@
 	}); 
 </script>
 <body>
-	<div class="forward accommodation">
-		<div class='container'>
-			<ul class="tab-bar">
-				<li><a href="/accommodation02">스탠다드</a></li>
-				<li class="active"><a href="javascript:;">디럭스</a></li>
-				<li><a href="/accommodation06">로얄</a></li>
-				<li><a href="/accommodation08">프리미엄</a></li>
-			</ul>
-		</div>
-	</div>
+	<div class="forward accommodation"></div>
 	<main>
 		<div class="container">
 			<ul class="accomm-tab-bar">
-				<li class="active"><a href="javascript:;">디럭스</a></li>
-				<li><a href="/accommodation05">디럭스패밀리</a></li>
+				<li><a href="/accommodation01">Type A</a></li>
+				<li><a href="/accommodation02">Type B</a></li>
+				<li><a href="/accommodation03">Type C</a></li>
+				<li class="active"><a href="javascript:;">Type D</a></li>
+				<li><a href="/accommodation05">Type E</a></li>
+				<li><a href="/accommodation06">Type F</a></li>
+				<li><a href="/accommodation07">Type G</a></li>
 			</ul>
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="/img/accommodation04_01.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/accommodation04_02.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/accommodation04_03.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/accommodation04_04.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/accommodation04_05.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
@@ -81,19 +77,19 @@
 			<div thumbsSlider="" class="swiper thumbs-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="/img/accommodation04_01.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/accommodation04_02.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/accommodation04_03.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/accommodation04_04.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/accommodation04_05.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 				</div>
     		</div>

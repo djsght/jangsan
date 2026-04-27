@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>태백호텔 > 호텔소개 > 오시는길</title>
+<title>장산콘도 > 콘도소개 > 오시는길</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">

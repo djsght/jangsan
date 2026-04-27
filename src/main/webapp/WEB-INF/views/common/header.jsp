@@ -137,8 +137,8 @@ function fn_lz(n, digits) {
 </script>
 <header id="header"> 
 	<h1>
-		<span class="korean-logo">태백호텔</span>
-		<span class="english-logo">TAEBAEK HOTEL</span>
+		<span class="korean-logo">장산콘도</span>
+		<span class="english-logo">JANGSAN CONDO</span>
 		<a href="/"><button class="hide">home</button></a>
 	</h1>
 	<h2 class="hide">메뉴</h2>
@@ -154,7 +154,7 @@ function fn_lz(n, digits) {
 		</ul>
 		<ul class="gnb">
 			<li>
-				<a href="/hotelinfo01">호텔소개</a>
+				<a href="/hotelinfo01">콘도소개</a>
 				<ul>
 					<li><a href="/hotelinfo01">인사말</a></li>
 					<li><a href="/hotelinfo02">이용안내</a></li>
@@ -162,61 +162,13 @@ function fn_lz(n, digits) {
 				</ul>
 			</li>
 			<li>
-				<a href="/accommodation02">객실</a>
-				<ul>
-					<li><a href="/accommodation02">스탠다드</a>
-						<ul>
-							<li><a href="/accommodation02">스탠다드더블</a></li>
-							<li><a href="/accommodation01">스탠다드온돌</a></li>
-							<li><a href="/accommodation03">스탠다드트윈</a></li>
-						</ul>
-					</li>
-					<li><a href="/accommodation04">디럭스</a>
-						<ul>
-							<li><a href="/accommodation04">디럭스</a></li>
-							<li><a href="/accommodation05">디럭스패밀리</a></li>
-						</ul>
-					</li>
-					<li><a href="/accommodation06">로얄</a>
-						<ul>
-							<li><a href="/accommodation06">로얄스위트</a></li>
-							<li><a href="/accommodation07">로얄패밀리</a></li>
-						</ul>
-					</li>
-					<li><a href="/accommodation08">프리미엄</a>
-						<ul>
-							<li><a href="/accommodation08">프리미엄온돌</a></li>
-							<li><a href="/accommodation09">프리미엄스위트</a></li>
-							<li><a href="/accommodation10">프리미엄패밀리</a></li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<a href="/dining01">다이닝</a>
-				<ul>
-					<li><a href="/dining01">한식당</a></li>
-					<li><a href="/dining02">양식당 & 커피숍</a></li>
-					<li><a href="/dining03">뷔페(연회장)</a></li>
- 					<%--li><a href="/dining04">커피숍</a></li--%>
-				</ul>
+				<a href="/accommodation01">객실</a>
 			</li>
 			<li>
 				<a href="/facilities01">부대시설</a>
-				<ul>
-					<li><a href="/facilities01">워터풀</a></li>
-					<li><a href="/facilities02">사우나</a></li>
-					<li><a href="/facilities03">웨딩홀(세미나실)</a></li>
-					<li><a href="/facilities04">소연회장</a></li>
-					<%--li><a href="/facilities05">바이오포톤세라피실</a></li--%>
-					<li><a href="/facilities06">미용실</a></li>
-					<li><a href="/facilities07">베이커리 & 카페</a></li>
-					<li><a href="/facilities08">편의점</a></li>
-					<li><a href="/facilities12">분식 & 카페</a></li>
-					<%--li><a href="/facilities09">공용세탁실</a></li--%>
-					<li><a href="/facilities10">캠핑장</a></li>
-					<li><a href="/facilities11">강변테라스</a></li>
-				</ul>
+			</li>
+			<li>
+				<a href="/dining01">주변관광지</a>
 			</li>
 		</ul>
 	</nav>

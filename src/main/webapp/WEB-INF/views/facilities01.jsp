@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>태백호텔 > 부대시설 > 워터풀</title>
+<title>장산콘도 > 부대시설 > 레스토랑</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
