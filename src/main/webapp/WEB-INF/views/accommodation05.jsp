@@ -55,19 +55,16 @@
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_5_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_1.webp'/>" alt="상품 이미지">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_5_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_2.webp'/>" alt="상품 이미지">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_5_3.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_3.webp'/>" alt="상품 이미지">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_5_4.webp'/>" alt="상품 이미지">
-					</div>
-					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_5_5.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_4.webp'/>" alt="상품 이미지">
 					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
@@ -77,19 +74,16 @@
 			<div thumbsSlider="" class="swiper thumbs-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_5_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_1.webp'/>" alt="상품 이미지">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_5_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_2.webp'/>" alt="상품 이미지">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_5_3.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_3.webp'/>" alt="상품 이미지">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_5_4.webp'/>" alt="상품 이미지">
-					</div>
-					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_5_5.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_4.webp'/>" alt="상품 이미지">
 					</div>
 				</div>
     		</div>

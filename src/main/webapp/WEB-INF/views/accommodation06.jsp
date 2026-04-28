@@ -55,10 +55,16 @@
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_6_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_1.webp'/>" alt="상품 이미지">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_6_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_2.webp'/>" alt="상품 이미지">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_f_3.webp'/>" alt="상품 이미지">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_f_4.webp'/>" alt="상품 이미지">
 					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
@@ -68,10 +74,16 @@
 			<div thumbsSlider="" class="swiper thumbs-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_6_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_1.webp'/>" alt="상품 이미지">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_6_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_2.webp'/>" alt="상품 이미지">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_f_3.webp'/>" alt="상품 이미지">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_f_4.webp'/>" alt="상품 이미지">
 					</div>
 				</div>
     		</div>

@@ -165,7 +165,7 @@ function fn_lz(n, digits) {
 				<a href="/accommodation01">객실</a>
 			</li>
 			<li>
-				<a href="/facilities01">부대시설</a>
+				<a href="/facilities01">레스토랑</a>
 			</li>
 			<li>
 				<a href="/dining01">주변관광지</a>
