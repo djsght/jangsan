@@ -152,6 +152,10 @@
 					</ul>
 				</div>
 			</article>
+			<article class="accom-map">
+				<h2>객실 배치도<span>Room Layout Plan</span></h2>
+				<img src="<c:url value='/img/webp/map_f.webp'/>" alt="typeF 배치도">
+			</article>
 		</div>
 	</main>
 </body>

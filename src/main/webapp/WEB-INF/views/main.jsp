@@ -268,13 +268,14 @@
 				<li class="search-button"><a onclick="reserve();">예약하기</a></li>
 			</ul>
 		</div>
-		<p>태백호텔 <span>7월 7일 그랜드 오픈</span></p>
 	</div>
 	<div class="main-contents intro">
 		<div class="container">
-			<p>태백호텔은 민족의 영산인 태백산 국립공원 입구 청정지역에 위치한 가족호텔로서<br>수려한 자연 경관과 맑은 공기가 어우러진 곳이며,<br>특히 고원지대의 특징인 열대야 없는 시원한 여름철을 만끽하실 수 있습니다.<p>
-			<p>고풍스런 외관 및 유럽풍의 품격있는 내부 인테리어를 자랑하고,<br>실속있는 각종 부대시설이 갖추어져 있어 다양하고 편안하게 이용하실 수 있습니다.<br>더불어 연중 개최되는 각종체육대회 및 전지훈련에 참가하는 고객님들께 맞춤 서비스를 제공합니다.</p>
-			<p>넓은 야외 캠핑장이 마련되어 있어 요즘 트렌드에 맞는 글램핑도 동시에 즐기실 수 있습니다.</p>
+			<p>하늘 아래 첫 휴식처, 해발 1,025m 장산콘도와 레스토랑은 고객님께 잊지 못할 이국적인 정취를 선사합니다.</p>
+			<p>태백과 함백산의 푸른 녹음이 어우러진 이곳은 때 묻지 않은 순수 자연의 숨결을 그대로 간직하고 있는 청정 힐링 공간입니다.</p>
+			<p>봄의 생동감, 여름의 시원한 바람, 가을의 붉은 단풍, 그리고 겨울 주목의 신비로움까지 대자연의 경이로움을 온전히 누려보세요.</p>
+			<p>장산콘도에서의 시간은 단순한 머무름을 넘어, 지친 몸과 마음을 다시 세우는 멋진 재충전의 기회가 될 것입니다.</p>
+			<p>오롯이 자연과 하나 되는 이곳에서, 소중한 사람들과 함께 오랫동안 기억될 아름다운 여행의 페이지를 기록해 보시기 바랍니다.</p>
 		</div>
 	</div>
 	<div class="main-contents accomm">
@@ -284,219 +285,191 @@
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="프리미엄스위트" src="/img/accommodation09_01.jpg">
+	    					<img alt="typeA 사진" src="<c:url value='/img/webp/accomm_a_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Premium Suite</span>
-		    						<span>프리미엄스위트</span>
+		    						<span>Type A</span>
+		    						<span>타입 A</span>
 		    					</div>
 		    					<div class="card-content">
 		    						유럽풍의 엔틱 가구로 된 넓은 공간에서 부부, 연인들이 행복한 시간을 가질 수 있으며 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
 		    					</div>
-		    					<a href="/accommodation09">더 보기</a>
+		    					<a href="/accommodation01">더 보기</a>
 		    					<div class="accomm-gallary">
-		    						<img class="active" alt="프리미엄스위트 사진1" src="/img/accommodation09_01.jpg">
-		    						<img alt="프리미엄스위트 사진2" src="/img/accommodation09_02.jpg">
-		    						<img alt="프리미엄스위트 사진3" src="/img/accommodation09_03.jpg">
-		    						<img alt="프리미엄스위트 사진4" src="/img/accommodation09_04.jpg">
+									<img class="active" alt="typeA 사진1" src="<c:url value='/img/webp/accomm_a_1.webp'/>">
+									<img alt="typeA 사진2" src="<c:url value='/img/webp/accomm_a_2.webp'/>">
 		    					</div>
 		    				</div>
 	    				</div>
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="프리미엄패밀리" src="/img/accommodation10_01.jpg">
+	    					<img alt="typeB 사진" src="<c:url value='/img/webp/accomm_b_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Premium Family</span>
-		    						<span>프리미엄패밀리</span>
+		    						<span>Type B</span>
+		    						<span>타입 B</span>
 		    					</div>
 		    					<div class="card-content">
 		    						유럽풍의 엔틱 가구로 된 넓은 공간에서 산 전망을 즐기면서 가족들끼리 힐링의 시간을 가질 수 있는 객실입니다.
 		    					</div>
-		    					<a href="/accommodation10">더 보기</a>
+		    					<a href="/accommodation02">더 보기</a>
 		    					<div class="accomm-gallary">
-		    						<img class="active" alt="프리미엄패밀리 사진1" src="/img/accommodation10_01.jpg">
-		    						<img alt="프리미엄패밀리 사진2" src="/img/accommodation10_02.jpg">
-		    						<img alt="프리미엄패밀리 사진3" src="/img/accommodation10_03.jpg">
-		    						<img alt="프리미엄패밀리 사진4" src="/img/accommodation10_04.jpg">
+									<img class="active" alt="typeB 사진1" src="<c:url value='/img/webp/accomm_b_1.webp'/>">
+									<img alt="typeB 사진2" src="<c:url value='/img/webp/accomm_b_2.webp'/>">
 		    					</div>
 		    				</div>
 	    				</div>
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="로얄스위트" src="/img/accommodation06_01.jpg">
+	    					<img alt="typeC 사진" src="<c:url value='/img/webp/accomm_c_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Royal Suite</span>
-		    						<span>로얄스위트</span>
+									<span>Type C</span>
+		    						<span>타입 C</span>
 		    					</div>
 		    					<div class="card-content">
 		    						대부분의 객실이 산 전망을 즐길 수 있고 부부, 연인들이 즐거운 시간을 가질 수 있으며 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
 		    					</div>
-		    					<a href="/accommodation06">더 보기</a>
+		    					<a href="/accommodation03">더 보기</a>
 		    					<div class="accomm-gallary">
-		    						<img class="active" alt="로얄스위트 사진1" src="/img/accommodation06_01.jpg">
-		    						<img alt="로얄스위트 사진2" src="/img/accommodation06_02.jpg">
-		    						<img alt="로얄스위트 사진3" src="/img/accommodation06_03.jpg">
-		    						<img alt="로얄스위트 사진4" src="/img/accommodation06_04.jpg">
+									<img class="active" alt="typeC 사진1" src="<c:url value='/img/webp/accomm_c_1.webp'/>">
+									<img alt="typeC 사진2" src="<c:url value='/img/webp/accomm_c_2.webp'/>">
+									<img alt="typeC 사진3" src="<c:url value='/img/webp/accomm_c_3.webp'/>">
+									<img alt="typeC 사진4" src="<c:url value='/img/webp/accomm_c_4.webp'/>">
 		    					</div>
 		    				</div>
 	    				</div>
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="로얄패밀리" src="/img/accommodation07_01.jpg">
+	    					<img alt="typeD 사진" src="/img/ready.svg">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Royal Family</span>
-		    						<span>로얄패밀리</span>
+									<span>Type D</span>
+		    						<span>타입 D</span>
 		    					</div>
 		    					<div class="card-content">
 		    						다소 넓은 공간으로 가족들이 여유롭게 지낼 수 있는 객실입니다.
 		    					</div>
-		    					<a href="/accommodation07">더 보기</a>
+		    					<a href="/accommodation04">더 보기</a>
 		    					<div class="accomm-gallary">
-		    						<img class="active" alt="로얄패밀리 사진1" src="/img/accommodation07_01.jpg">
-		    						<img alt="로얄패밀리 사진2" src="/img/accommodation07_02.jpg">
-		    						<img alt="로얄패밀리 사진3" src="/img/accommodation07_03.jpg">
-		    						<img alt="로얄패밀리 사진4" src="/img/accommodation07_04.jpg">
+		    						<img class="active" alt="공사중"  src="/img/ready.svg">
 		    					</div>
 		    				</div>
 	    				</div>
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="디럭스" src="/img/accommodation04_01.jpg">
+	    					<img alt="typeE 사진" src="<c:url value='/img/webp/accomm_e_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Delux</span>
-		    						<span>디럭스</span>
+									<span>Type E</span>
+		    						<span>타입 E</span>
 		    					</div>
 		    					<div class="card-content">
 		    						산 전망을 즐길 수 있으며 다소 저렴하게 부부, 연인들 끼리 힐링 할 수 있는 객실로 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
 		    					</div>
-		    					<a href="/accommodation04">더 보기</a>
+		    					<a href="/accommodation05">더 보기</a>
 		    					<div class="accomm-gallary">
-		    						<img class="active" alt="디럭스 사진1" src="/img/accommodation04_01.jpg">
-		    						<img alt="디럭스 사진2" src="/img/accommodation04_02.jpg">
-		    						<img alt="디럭스 사진3" src="/img/accommodation04_03.jpg">
-		    						<img alt="디럭스 사진4" src="/img/accommodation04_04.jpg">
+									<img class="active" alt="typeE 사진1" src="<c:url value='/img/webp/accomm_e_1.webp'/>">
+									<img alt="typeE 사진2" src="<c:url value='/img/webp/accomm_e_2.webp'/>">
+									<img alt="typeE 사진3" src="<c:url value='/img/webp/accomm_e_3.webp'/>">
+									<img alt="typeE 사진4" src="<c:url value='/img/webp/accomm_e_4.webp'/>">
 		    					</div>
 		    				</div>
 	    				</div>
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="디럭스패밀리" src="/img/accommodation05_01.jpg">
+	    					<img alt="typeF 사진" src="<c:url value='/img/webp/accomm_f_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Delux Family</span>
-		    						<span>디럭스패밀리</span>
+									<span>Type F</span>
+		    						<span>타입 F</span>
 		    					</div>
 		    					<div class="card-content">
 		    						산 전망을 즐길 수 있으며 다소 저렴하게 가족들끼리 힐링 할 수 있는 객실입니다.
 		    					</div>
-		    					<a href="/accommodation05">더 보기</a>
+		    					<a href="/accommodation06">더 보기</a>
 		    					<div class="accomm-gallary">
-		    						<img class="active" alt="디럭스패밀리 사진1" src="/img/accommodation05_01.jpg">
-		    						<img alt="디럭스패밀리 사진2" src="/img/accommodation05_02.jpg">
-		    						<img alt="디럭스패밀리 사진3" src="/img/accommodation05_03.jpg">
-		    						<img alt="디럭스패밀리 사진4" src="/img/accommodation05_04.jpg">
+									<img class="active" alt="typeF 사진1" src="<c:url value='/img/webp/accomm_f_1.webp'/>">
+									<img alt="typeF 사진2" src="<c:url value='/img/webp/accomm_f_2.webp'/>">
+									<img alt="typeF 사진3" src="<c:url value='/img/webp/accomm_f_3.webp'/>">
+									<img alt="typeF 사진4" src="<c:url value='/img/webp/accomm_f_4.webp'/>">
 		    					</div>
 		    				</div>
 	    				</div>
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="스탠다드트윈" src="/img/accommodation03_01.jpg">
+	    					<img alt="typeG 사진" src="<c:url value='/img/webp/accomm_g_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Standard Twin</span>
-		    						<span>스탠다드트윈</span>
+									<span>Type G</span>
+		    						<span>타입 G</span>
 		    					</div>
 		    					<div class="card-content">
 		    						작지만 두 개의 침실로 된 공간 활용도가 높은 객실입니다.
 		    					</div>
-		    					<a href="/accommodation03">더 보기</a>
+		    					<a href="/accommodation07">더 보기</a>
 		    					<div class="accomm-gallary">
-		    						<img class="active" alt="스탠다드트윈 사진1" src="/img/accommodation03_01.jpg">
-		    						<img alt="스탠다드트윈 사진2" src="/img/accommodation03_02.jpg">
-		    						<img alt="스탠다드트윈 사진3" src="/img/accommodation03_03.jpg">
-		    						<img alt="스탠다드트윈 사진4" src="/img/accommodation03_04.jpg">
-		    					</div>
-		    				</div>
-	    				</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="so-card">
-	    					<img alt="스탠다드" src="/img/accommodation02_01.jpg">
-	    					<div class="card-container">
-		    					<div class="card-title">
-		    						<span>Standard</span>
-		    						<span>스탠다드</span>
-		    					</div>
-		    					<div class="card-content">
-		    						침실이 1개인 객실로 가성비가 좋은 객실입니다.
-		    					</div>
-		    					<a href="/accommodation02">더 보기</a>
-		    					<div class="accomm-gallary">
-		    						<img class="active" alt="스탠다드 사진1" src="/img/accommodation02_01.jpg">
-		    						<img alt="스탠다드 사진2" src="/img/accommodation02_02.jpg">
-		    						<img alt="스탠다드 사진3" src="/img/accommodation02_03.jpg">
-		    						<img alt="스탠다드 사진4" src="/img/accommodation02_04.jpg">
+									<img class="active" alt="typeG 사진1" src="<c:url value='/img/webp/accomm_g_1.webp'/>">
+									<img alt="typeG 사진2" src="<c:url value='/img/webp/accomm_g_2.webp'/>">
+									<img alt="typeG 사진3" src="<c:url value='/img/webp/accomm_g_3.webp'/>">
+									<img alt="typeG 사진4" src="<c:url value='/img/webp/accomm_g_4.webp'/>">
 		    					</div>
 		    				</div>
 	    				</div>
 					</div>
 				</div>
 				<div id="accomm-swiper-next" class="swiper-button-next"></div>
-				<span id="accomm-page" class="page-number">1/8</span>
+				<span id="accomm-page" class="page-number">1/7</span>
 				<div id="accomm-swiper-prev" class="swiper-button-prev"></div>
 			</div>
 		</div>
 	</div>
 	<div class="main-contents dining">
 		<div class="container">
-			<h2>다이닝<span>DINING</span></h2>
+			<h2>레스토랑<span>Restaurant</span></h2>
 			<div class="dining-card">
-				<img src="/img/dining01_sub.png">
+				<img src="<c:url value='/img/webp/restaurant_sub.webp'/>">
 				<a href="/dining01">더 보기</a>
 				<div class="card-title">
-					<span>Korean Restaurant</span>
-					<span>한식당</span>
+					<span>Jangsan Restaurant</span>
+					<span>장산 레스토랑</span>
 				</div>
 				<div class="card-content">
 					주방장이 직접 고른 신선한 제철 식자재를 사용하여 한껏 정성스럽게 만들어진 음식을 맛 볼 수 있습니다.
 				</div>
 			</div>
 			<div class="dining-picture">
-				<ul>
+				<%--ul>
 					<li class="active"><a onclick="tab(1)">한식당</a></li>
 					<li><a onclick="tab(2)">양식당&커피숍</a></li>
 					<li><a onclick="tab(3)">뷔페(연회장)</a></li>
-					<%--li><a onclick="tab(4)">커피숍</a></li--%>
-				</ul>
-				<img src="/img/dining01_main.png">
+					<li><a onclick="tab(4)">커피숍</a></li>
+				</ul--%>
+				<img src="<c:url value='/img/webp/restaurant.webp'/>">
 			</div>
 		</div>
 	</div>
 	<div class="main-contents facil">
 		<div class="container">
-			<h2>부대시설 <span> FACILITIES</span></h2>
+			<h2 class="tour">주변관광지 <span> TOURIST ATTRACTIONS</span></h2>
 			<div class="swiper facilSwiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="워터풀 사진" src="/img/facilities01_main.png">
+	    					<img alt="만항재 사진" src="<c:url value='/img/webp/tour_4.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Water Pool</span>
-		    						<span>워터풀</span>
+		    						<span>만항재</span>
+		    						<span>만항재</span>
 		    					</div>
 		    					<div class="card-content">
-		    						돔형 워터풀으로 사계절 전천후 이용 가능하며 워터슬라이드가 설치되어 있어 가족 동반으로 물놀이를 여유롭게 즐길 수 있습니다. 숙박 고객은 할인도 받을 수 있습니다.
+		    						만항재는 해발 1,330m로 우리나라에서 차로 갈 수 있는 가장 높은 고개이며, 굽이치는 능선을 따라 환상적인 드라이브 코스를 선사합니다. 이곳의 산상의 화원은 계절마다 형형색색의 야생화가 만개하여 천상의 정원을 연상시키며, 울창한 낙엽송 숲길이 매력적인 하늘숲공원은 고산지대의 청량한 공기 속에서 여유로운 산책을 즐기기에 더할 나위 없이 좋습니다. 겨울이면 눈꽃이 만발하는 풍경 덕분에 사계절 내내 많은 이들이 찾는 자연의 쉼터입니다.
 		    					</div>
 		    					<a href="/facilities01">더 보기</a>
 		    				</div>
@@ -504,61 +477,61 @@
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="사우나 사진" src="/img/facilities02_main.png">
+	    					<img alt="함백산 사진" src="<c:url value='/img/webp/tour_2.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Sauna</span>
-		    						<span>사우나</span>
+		    						<span>함백산</span>
+		    						<span>함백산</span>
 		    					</div>
 		    					<div class="card-content">
-		    						넓은 탕 내 공간의 여유로움과 다양한 사우나를 즐길 수 있으며 숙박 고객은 할인 받을 수 있습니다.
+		    						함백산은 해발 1,573m로 우리나라에서 여섯 번째로 높은 산이며, 정상 부근까지 도로가 잘 정비되어 있어 남녀노소 누구나 비교적 쉽게 동해안의 일출과 장엄한 운해를 감상할 수 있는 곳입니다. 겨울에는 환상적인 눈꽃 터널이, 여름에는 시원한 고산지대의 바람과 야생화가 어우러져 사계절 내내 등산객과 사진작가들의 발길이 끊이지 않는 명산입니다.
 		    					</div>
-		    					<a href="/facilities02">더 보기</a>
+		    					<a href="/facilities01">더 보기</a>
 		    				</div>
 	    				</div>
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="웨딩홀 사진" src="/img/facilities03_main.png">
+	    					<img alt="정암사 사진" src="<c:url value='/img/webp/tour_3.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Wedding Hall<br>(Seminar Room)</span>
-		    						<span>웨딩홀(세미나실)</span>
+		    						<span>정암사</span>
+		    						<span>정암사</span>
 		    					</div>
 		    					<div class="card-content">
-		    						최첨단 장비를 구비하여 고객의 성공적인 비즈니스를 위한 다목적 회의실 겸 가족 단위의 소규모 예식부터 200여명 규모의 예식까지 고객님의 취향에 맞게 컨설팅해드리는 웨딩홀입니다.
+		    						정암사는 신라 시대 자장율사가 부처님의 진신사리를 모시고 창건한 사찰로, 우리나라 5대 적멸보궁 중 하나로 꼽히는 유서 깊은 곳입니다. 경내 산비탈에 세워진 보물 제410호 수마노탑은 정암사를 상징하는 대표적인 문화재이며, 사찰을 감싸고 흐르는 계곡은 천연기념물인 열목어 서식지로 지정되어 있을 만큼 청정한 자연경관을 자랑합니다.
 		    					</div>
-		    					<a href="/facilities03">더 보기</a>
+		    					<a href="/facilities01">더 보기</a>
 		    				</div>
 	    				</div>
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="소연회장 사진" src="/img/facilities04_main.png">
+	    					<img alt="황지연못 사진" src="<c:url value='/img/webp/tour_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Small Banquet Hall</span>
-		    						<span>소연회장</span>
+		    						<span>황지연못</span>
+		    						<span>황지연못</span>
 		    					</div>
 		    					<div class="card-content">
-		    						소규모 비즈니스 및 프라이빗 미팅을 진행 할 수 있으며, 세미나와 미팅에 필요한 다양한 시설과 서비스를합니다.
+		    						황지연못은 영남의 젖줄인 낙동강 1,300리의 물길이 시작되는 발원지로, 태백 시내 중심부에 위치하여 시민들과 관광객들에게 편안한 휴식처를 제공하는 의미 깊은 명소입니다. 연못에서는 가뭄에도 마르지 않고 하루 약 5,000톤의 맑은 물이 솟아오르며, 상도(上池)·중도(中池)·하도(下池) 세 개의 연못이 어우러진 신비로운 풍광과 함께 주변에 조성된 공원은 산책하기에 매우 좋습니다.
 		    					</div>
-		    					<a href="/facilities04">더 보기</a>
+		    					<a href="/facilities01">더 보기</a>
 		    				</div>
 	    				</div>
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="야영장 사진" src="/img/facilities10_main.png">
+	    					<img alt="검룡소 사진" src="<c:url value='/img/webp/tour_5.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Camping Ground</span>
-		    						<span>캠핑장</span>
+		    						<span>검룡소</span>
+		    						<span>검룡소</span>
 		    					</div>
 		    					<div class="card-content">
-		    						요즘 트렌드인 글램핑을 같이 즐길 수 있습니다.<br>※ 숙박 고객은 할인 받을 수 있습니다.
+		    						검룡소는 한강 514km의 물길이 시작되는 신비로운 발원지로, 사계절 내내 9℃의 차가운 물이 하루 약 2,000톤씩 솟아오르는 자연의 경이로움을 간직한 곳입니다. 석회암반을 뚫고 솟아나온 물이 구불구불한 암반을 타고 흐르는 모습이 마치 용이 몸부림치는 것 같다고 하여 '검룡소'라는 이름이 붙었으며, 주변의 울창한 숲과 이끼 낀 바위들이 어우러져 태고의 신비를 더합니다.
 		    					</div>
-		    					<a href="/facilities10">더 보기</a>
+		    					<a href="/facilities01">더 보기</a>
 		    				</div>
 	    				</div>
 					</div>

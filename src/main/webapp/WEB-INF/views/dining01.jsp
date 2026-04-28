@@ -40,30 +40,22 @@
 	});
 </script>
 <body>
-	<div class="forward dining">
-		<div class='container'>
-			<ul class="tab-bar">
-				<li class="active"><a href="javascript:;">한식당</a></li>
-				<li><a href="/dining02">양식당 & 커피숍</a></li>
-				<li><a href="/dining03">뷔페(연회장)</a></li>
-			</ul>
-		</div>
-	</div>
+	<div class="forward dining"></div>
 	<main>
 		<div class="container">
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="/img/dining01_01.jpg" />
+						<img src="<c:url value='/img/webp/restaurant.webp'/>">
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/dining01_02.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/dining01_03.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/dining01_04.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
@@ -73,22 +65,22 @@
 			<div thumbsSlider="" class="swiper thumbs-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="/img/dining01_01.jpg" />
+						<img src="<c:url value='/img/webp/restaurant.webp'/>">
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/dining01_02.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/dining01_03.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/dining01_04.jpg" />
+						<img src="/img/ready.svg" />
 					</div>
 				</div>
     		</div>
 			<article class="detail-box etc menu">
-				<h2>한식당<span>Korean Restaurant</span></h2>
-				<p>주방장이 직접 고른 신선한 제철 식자재를 사용하여 한껏 정성스럽게 만들어진 음식을 맛 볼 수 있습니다.<br>※ 외부 음식물 및 음료류(커피, 캔맥주, 음료수 등)는 반입을 금지하고 있습니다.</p>
+				<h2>장산 레스토랑<span>Jangsan Restaurant</span></h2>
+				<p>매일 매일 제공되는 신선한 재료로 세련된 셰프의 손끝에서 만들어진 품격있는 요리를 즐길 수 있습니다.</p>
 				<button><a href="/pdf/Korean restaurant menu.pdf" target="_blank">메뉴</a></button>
 				<div class="detail-info">
 					<h3>운영시간</h3>

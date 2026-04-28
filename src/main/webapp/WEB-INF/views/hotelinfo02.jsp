@@ -21,28 +21,21 @@
 	</div>
 	<main>
 		<div class="container">
-			<div class="hotel-lobby">
-				<img src="/img/lobby-img01.png">
-				<img src="/img/lobby-img02.png">
-				<img src="/img/lobby-img03.png">
-				<div class="content">
-					<span>호텔 로비</span>
-					<span>Hotel Lobby</span>
-					<p>고객님들의 편안한 휴식처가<br>되어줄 호텔 로비입니다.<br>호텔의 다양한 정보를 로비의<br>프론트에서 만나보세요.</p>
-				</div>
-			</div>
 			<article class='use'>
 				<h2>이용안내<span>Information Use</span></h2>
 				<ol>
-					<li>호텔내 전 객실 금연입니다.</li>
-					<li>저희 호텔은 반려동물 동반입장이 불가하십니다. (시각장애인 안내견 제외)</li>
-					<li>체크인 시간 : 오후 3시 이후 ~</li>
-					<li>체크아웃 시간 : 오전 11시</li>
-					<li>객실 내 칫솔, 치약, 면도기는 일회용품으로 별도 제공되지 않으며, 프론트 및 편의점에서 구매가능합니다.</li>
-					<li>객실 내 미니바는 없으나 지장수가 객실별 최소인원수대로 무료 제공됩니다.</li>
-				</ol>
+					<li>콘도내 전 객실 금연입니다.</li>
+					<li>저희 콘도는 반려동물 동반입장이 불가하십니다. (시각장애인 안내견 제외)</li>
+					<li>체크인 시간: 14시 이후~</li>
+					<li>체크아웃 시간: 12시</li>
+					<li>객식 예약 후 결제는 24시간이내에 해주시면 됩니다.</li>
+					<li>객실 예약은 예약일 당일 취소 불가하며 하루전 취소하시면 50% 공제, 이틀전 취소하시면 10% 공제 됩니다.</li>
+					<li>객실 이용 시 추가인원이 발생 시 추가인원 1인당 1만원씩 추가되며, 추가인원에 맞게끔 침구류를 제공해드리고 있습니다.</li>
+					<li>2인실을 제외한 모든 객실에 주방시설이 완비되어 있습니다.</li>
+					<li>성수기 예약은 보통 매년 6월부터 가능합니다.</li>
+				</li>
 			</article>
-			<article class='term'>
+			<!--article class='term'>
 				<h2>객실 예약 취소 약관<span>Room Reservation Cancellation Terms and Conditions</span></h2>
 				<span>- 성수기 취소약관 (7 ~ 8월 및 연휴, 연말 기간)</span>
 				<ul>
@@ -59,12 +52,16 @@
 					<li>1일전 위약금 50%</li>
 					<li>당일 위약금 100% (노쇼우 포함) - 호텔 상황에 따라 예약 날짜이동은 가능하십니다.</li>
 				</ul>
-			</article>
+			</article-->
 			<article class="information">
-				<h2>호텔정보<span>Hotel Information</span></h2>
+				<h2>콘도정보<span>Condo Information</span></h2>
 				<p>
-					개관일 : 2022년  7월  7일<br>규모 : 지하 1층 ~ 지상 4층<br>주차대수 : 104 대(투숙객 1대 무료주차)<br>객실수 : 88개 객실<br>대표전화 : 033-553-5500
+					개관일 : 2026년  5월  1일<br>규모 : 0000㎡<br>주차대수 : 약 40대(투숙객 1대 무료주차)<br>객실수 : 15객실<br>대표전화 : 033-553-5500
 				</p>
+			</article>
+			<article class="map">
+				<h2>콘도 안내도<span>Condo Guide</span></h2>
+				<img src="<c:url value='/img/webp/map_condo.webp'/>" alt="콘도 배치도">
 			</article>
 		</div>
 	</main>
