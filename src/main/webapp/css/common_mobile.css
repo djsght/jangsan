@@ -73,6 +73,12 @@ article h2 span{ padding-top: .1rem; font-size: .8rem;}
 	.detail-box.etc.menu .line-break{ display: block;}	
 }
 
+.card-row, .card-row.reverse { flex-direction: column; gap: 1.5rem; margin-bottom: 4rem;}
+.card-content { padding-top: 1.3rem;}
+.card-content .title { margin-bottom: 1.5rem; font-size: 1.4rem;}
+.card-content .description { font-size: .9rem; line-height: 1.3rem; margin-bottom: 1.5rem;}
+.card-content .distance { font-size: 0.9rem;}
+
 
 .swiper.gallary-swiper{ width: 100%; height: auto;}
 .swiper.gallary-swiper .font{ bottom: 1.5rem; font-size: .7rem; }
