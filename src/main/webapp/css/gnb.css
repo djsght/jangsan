@@ -36,13 +36,13 @@ header nav .quick-menu > li:last-child::after{ content: none; }
 header .btn-nav{ display: none;} 
 header .close{ display: none;}
 
-.bg-header{ position: absolute; left: 0; right: 0; top: 0; height: 160px; background-color: rgba(0, 0, 0, .4); z-index: 1;}
+.bg-header{ position: absolute; left: 0; right: 0; top: 0; min-width: 1320px; height: 160px; background-color: rgba(0, 0, 0, .4); z-index: 1;}
 .bg-header.active{ background-color: rgba(0, 0, 0, .7);}
 .bg-gnb{ display: none; position: absolute; left: 0; right: 0; top: 160px; height: 430px; background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0, rgba(66, 66, 66, .7) 400px, rgba(66,66,66,0)); z-index: 1;}
 .bg-gnb.active{ display: block; }
 
 /* footer */
-footer{ width:100%; height: 210px; background-color: #000}
+footer{ width:100%; min-width: 1320px height: 210px; background-color: #000}
 footer .footer-container{ margin: 0 auto; width: 1200px;}
 footer .footer-container .corp-area{ position: relative; font-size: 0;}
 footer .footer-container .corp-area ul{ margin: 25px 0 0  248px; display:inline-block; font-size: 0;}

@@ -17,8 +17,10 @@ header nav .gnb > li > a{ padding: 0; font-size: .9rem; line-height: 2.6rem; col
 header nav .gnb > li:hover > a,
 header nav .gnb > li > a:focus{ color: #fff;}
 header nav .gnb > li ul{ display: block; position: static; width: 100%; max-height: 0; transition: max-height .3s ease-out; overflow: hidden;}
-header nav .gnb > li::before{ content: ""; position: absolute; top: 1rem; right: 1.4rem; width: .1rem; height: .9rem; background-color: #fff; transition: .3s;}
-header nav .gnb > li::after{ content: ""; position: absolute; top: 1.45rem; right: 1rem; width: .9rem; height: .1rem; background-color: #fff;}
+/*header nav .gnb > li::before{ content: ""; position: absolute; top: 1rem; right: 1.4rem; width: .1rem; height: .9rem; background-color: #fff; transition: .3s;}
+header nav .gnb > li::after{ content: ""; position: absolute; top: 1.45rem; right: 1rem; width: .9rem; height: .1rem; background-color: #fff;}*/
+header nav .gnb > li:first-child::before{ content: ""; position: absolute; top: 1rem; right: 1.4rem; width: .1rem; height: .9rem; background-color: #fff; transition: .3s;}
+header nav .gnb > li:first-child::after{ content: ""; position: absolute; top: 1.45rem; right: 1rem; width: .9rem; height: .1rem; background-color: #fff;}
 header nav .gnb > li:last-child::after{ content: "";}
 header nav .gnb > li.on ul{ display: block; max-height: 20rem;  transition: max-height .3s ease-in;}
 header nav .gnb > li.on::before{ transform: rotate(90deg);}

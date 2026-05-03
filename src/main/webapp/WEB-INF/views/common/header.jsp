@@ -73,7 +73,7 @@ $(document).ready(function() {
 	});
 
 	/* mobile */
-	$('.gnb > li > a').on('click', function(e){
+	$('.gnb > li:first-child > a').on('click', function(e){
 		var window_width = $(window).width();
 		if(window_width < tablet_width){
 			e.preventDefault();
