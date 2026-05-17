@@ -16,18 +16,20 @@
 			<ul>
 				<li><a onclick="popup_open()">이메일무단수집금지</a></li>
 				<li><a href="/sitemap">사이트맵</a></li>
+				<li>SNS</li>
 			</ul>
 			<select onchange="family_open(value)">
 				<option value="none" selected>패밀리사이트</option>
 				<option value="https://www.msgh.kr/">동해보양온천컨벤션호텔</option>
+				<option value="https://taebaekhotel.com/">태백호텔</option>
 			</select>
 		</div>
-		<div class="footer-logo"><span>태백호텔</span></div>
+		<div class="footer-logo"><span>장산콘도</span></div>
 		<address>
-			<p>태백호텔 | ㈜동해보양온천컨벤션호텔 태백호텔지점 | (26043)강원도 태백시 태백산로 4761(소도동)</p>
-			<p>TEL : 033-553-5500 | FAX : 033-553-7070<%-- | E-mail : jangsancondo@jangsancondo.com --%></p>
-			<p>사업자 등록번호 769-85-01779<!-- | 통신판매번호 제2019-경북성주-11호 |  대표이사 이용철--></p>
-			<em>Copyright ⓒ TaeBaek Hotel All right reserved</em>
+			<p>장산콘도 | ㈜동해보양온천컨벤션호텔 장산콘도지점 | (26248)강원특별자치도 영월군 상동읍 함백산로 426(상동읍)</p>
+			<p>TEL : 010-9763-5561 | E-mail : tap1204@naver.com</p>
+			<p>사업자 등록번호 854-85-03338 | 통신판매번호 제0000-가나다라-0000 | 대표이사 김준호</p>
+			<em>Copyright ⓒ Jangsan Condo All right reserved</em>
 		</address>
 	</div>
 </footer>

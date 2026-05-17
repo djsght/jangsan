@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>장산콘도 > 객실 > Type D</title>
+<title>장산콘도 > 객실 > 2호실</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -44,13 +44,13 @@
 	<main>
 		<div class="container">
 			<ul class="accomm-tab-bar">
-				<li><a href="/accommodation01">Type A</a></li>
-				<li><a href="/accommodation02">Type B</a></li>
-				<li><a href="/accommodation03">Type C</a></li>
-				<li class="active"><a href="javascript:;">Type D</a></li>
-				<li><a href="/accommodation05">Type E</a></li>
-				<li><a href="/accommodation06">Type F</a></li>
-				<li><a href="/accommodation07">Type G</a></li>
+				<li><a href="/accommodation01">8호실</a></li>
+				<li><a href="/accommodation02">15호실</a></li>
+				<li><a href="/accommodation03">6,7,9,10호실</a></li>
+				<%--li class="active"><a href="javascript:;">2호실</a></li--%>
+				<li><a href="/accommodation05">1,3,5호실</a></li>
+				<li><a href="/accommodation06">11,12,13호실</a></li>
+				<li><a href="/accommodation07">14호실</a></li>
 			</ul>
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
@@ -131,6 +131,13 @@
 							<span>TEL : 033-553-5500</span>
 						</li>
 					</ul>
+				</div>
+				<div class="notes">
+					<h4>추가요금안내 및 유의사항</h4>
+					<p>- 객식 예약 후 결제는 24시간이내에 해주시면 됩니다.</p>
+					<p>- 객실 예약은 예약일 당일 취소 불가하며 하루전 취소하시면 50% 공제, 이틀전 취소하시면 10% 공제 됩니다.</p>
+					<p>- 객실 이용 시 추가인원이 발생 시 추가인원 1인당 1만원씩 추가되며, 추가인원에 맞게끔 침구류를 제공해드리고 있습니다.</p>
+					<p>- 홈페이지에 게시된 객실 사진은 대표객실의 사진이므로 예약하시는 객실과 다를 수 있습니다.</p>
 				</div>
 			</article>
 			<article class="accom-map">

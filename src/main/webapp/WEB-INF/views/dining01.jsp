@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>태백호텔 > 다이닝 > 한식당</title>
+<title>장산콘도</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -46,16 +46,19 @@
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/restaurant.webp'/>">
+						<img src="<c:url value='/img/webp/restaurant_1.webp'/>">
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/ready.svg" />
+						<img src="<c:url value='/img/webp/restaurant_2.webp'/>">
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/ready.svg" />
+						<img src="<c:url value='/img/webp/restaurant_3.webp'/>">
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/ready.svg" />
+						<img src="<c:url value='/img/webp/restaurant_4.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_5.webp'/>">
 					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
@@ -65,16 +68,19 @@
 			<div thumbsSlider="" class="swiper thumbs-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/restaurant.webp'/>">
+						<img src="<c:url value='/img/webp/restaurant_1.webp'/>">
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/ready.svg" />
+						<img src="<c:url value='/img/webp/restaurant_2.webp'/>">
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/ready.svg" />
+						<img src="<c:url value='/img/webp/restaurant_3.webp'/>">
 					</div>
 					<div class="swiper-slide">
-						<img src="/img/ready.svg" />
+						<img src="<c:url value='/img/webp/restaurant_4.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_5.webp'/>">
 					</div>
 				</div>
     		</div>
@@ -85,21 +91,17 @@
 				<div class="detail-info">
 					<h3>운영시간</h3>
 					<ul>
-						<li>07:00am ~ 21:00pm (라스트 오더 20:30pm까지)</li>
+						<li>07:00am ~ 20:00pm (식사 라스트 오더 19:00pm까지)</li>
 					</ul>
 					<h3 class="special">특이사항</h3>
 					<ul>
 						<li>
-							<h4>위치</h4>
-							<span>B동 1층</span>
-						</li>
-						<li>
 							<h4>수용 인원</h4>
-							<span>80명 / 별실 40명(별실 이용시 사전 예약 부탁드립니다)</span>
+							<span>100명 (테라스, 실내 포함)</span>
 						</li>
 						<li>
 							<h4>예약 및 문의안내</h4>
-							<span>TEL : 033-553-5500</span>
+							<span>TEL :  033-378-5557</span>
 						</li>
 					</ul>
 				</div>
