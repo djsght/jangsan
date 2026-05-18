@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>장산콘도 > 객실 > 11,12,13호실</title>
+<title>장산콘도</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -38,6 +38,18 @@
 			},
 		}); 
 	}); 
+	function reserve11(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630208?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
+	function reserve12(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630209?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
+	function reserve13(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630211?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
 </script>
 <body>
 	<div class="forward accommodation"></div>
@@ -55,16 +67,19 @@
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_f_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_1.webp'/>" alt="11,12,13호실_1">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_f_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_2.webp'/>" alt="11,12,13호실_2">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_f_3.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_3.webp'/>" alt="11,12,13호실_3">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_f_4.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_4.webp'/>" alt="11,12,13호실_4">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
 					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
@@ -74,16 +89,19 @@
 			<div thumbsSlider="" class="swiper thumbs-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_f_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_1.webp'/>" alt="11,12,13호실_1">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_f_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_2.webp'/>" alt="11,12,13호실_2">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_f_3.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_3.webp'/>" alt="11,12,13호실_3">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_f_4.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_f_4.webp'/>" alt="11,12,13호실_4">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
 					</div>
 				</div>
     		</div>
@@ -95,24 +113,24 @@
 							<span>Room 11</span>
 						</div>
 						<div class="word-background"></div>
-						<img src="/img/ready.svg">
-						<button><a onclick="reserveDetail();">예약하기</a></button>
+						<img src="<c:url value='/img/webp/accomm_ex_11.webp'/>" alt="11호실_전경">
+						<button><a onclick="reserve11();">예약하기</a></button>
 					</div>
 					<div class="card">
 						<div class="word-container">
 							<h2>12호실</h2>
 							<span>Room 12</span>
 						</div>
-						<img src="/img/ready.svg">
-						<button><a onclick="reserveDetail();">예약하기</a></button>
+						<img src="<c:url value='/img/webp/accomm_ex_12.webp'/>" alt="12호실_전경">
+						<button><a onclick="reserve12();">예약하기</a></button>
 					</div>
 					<div class="card">
 						<div class="word-container">
 							<h2>13호실</h2>
 							<span>Room 13</span>
 						</div>
-						<img src="/img/ready.svg">
-						<button><a onclick="reserveDetail();">예약하기</a></button>
+						<img src="<c:url value='/img/webp/accomm_ex_13.webp'/>" alt="13호실_전경">
+						<button><a onclick="reserve13();">예약하기</a></button>
 					</div>
 				</div>
 				<div class="detail-info">

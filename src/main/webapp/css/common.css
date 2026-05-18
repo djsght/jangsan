@@ -8,10 +8,10 @@
 .forward .tab-bar li{ flex: 1;}
 .forward .tab-bar li.active{ background-color: #AF8D5D;}
 .forward .tab-bar li a{ display: block; width: 100%; height: 100%; font-size: 16px; line-height: 50px; color: #fff; text-align: center;}
-.forward.hotel-info{ background-image: url(/img/webp/info_header_beforeEdit.webp);}
-.forward.accommodation{ background-image: url(/img/webp/accomm_header_beforeEdit.webp);}
-.forward.dining{ background-image: url(/img/webp/restaurant_header_beforeEdit.webp);}
-.forward.facilities{ background-image: url(/img/webp/restaurant_header_beforeEdit.webp);}
+.forward.hotel-info{ background-image: url(/img/webp/info_header.webp);}
+.forward.accommodation{ background-image: url(/img/webp/accomm_header.webp);}
+.forward.dining{ background-image: url(/img/webp/restaurant_header.webp);}
+.forward.facilities{ background-image: url(/img/webp/tour_header.webp);}
 .forward.facilities::before{ content: none;}
 .forward.site-map{ background-image: url(/img/info_header.png);}
 .forward.site-map::before{ content: none;}
@@ -94,7 +94,7 @@ article h2 span{ display: block; padding-top: 7px; font-size: 20px; color: #2F2F
 .detail-box .card-container .card{ position: relative;}
 .detail-box .card-container .card .word-container{ position: absolute; top: 50px; left: 0; right: 0;}
 .detail-box .card-container .card .word-container::before{ content:""; display: block; position: absolute; width: 100%; height: 100%; background-color: #7D7667; opacity: 60%;}
-.detail-box .card-container .card .word-container h2{ display: block; position: relative; padding: 9px 3px; margin: 0 110px; width: auto; border-bottom: 1px solid #FFFFFF; font-size: 28px; color: #ffffff;}
+.detail-box .card-container .card .word-container h2{ display: block; position: relative; padding: 9px 3px; margin: 0 110px; width: auto; border-bottom: 1px solid #FFFFFF; font-size: 28px; text-align: center; color: #ffffff;}
 .detail-box .card-container .card .word-container span{ display: block; position: relative; padding: 4px 12px; font-size: 22px; text-align: center; color: #ffffff;}
 .detail-box .card-container .card button{ top: auto; bottom: 40px; right: 50%; transform: translateX(50%);}
 .detail-box .card-container .card img{ height: 320px; object-fit: cover;}

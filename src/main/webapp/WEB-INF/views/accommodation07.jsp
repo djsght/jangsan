@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>장산콘도 > 객실 > 14호실</title>
+<title>장산콘도</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -37,7 +37,11 @@
 				swiper: thumbs_swiper,
 			},
 		}); 
-	}); 
+	});
+	function reserve14(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/3203337?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
 </script>
 <body>
 	<div class="forward accommodation"></div>
@@ -55,22 +59,25 @@
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_1.webp'/>" alt="14호실_1">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_2.webp'/>" alt="14호실_2">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_3.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_3.webp'/>" alt="14호실_3">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_4.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_4.webp'/>" alt="14호실_4">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_5.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_5.webp'/>" alt="14호실_5">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_6.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_6.webp'/>" alt="14호실_6">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
 					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
@@ -80,29 +87,32 @@
 			<div thumbsSlider="" class="swiper thumbs-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_1.webp'/>" alt="14호실_1">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_2.webp'/>" alt="14호실_2">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_3.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_3.webp'/>" alt="14호실_3">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_4.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_4.webp'/>" alt="14호실_4">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_5.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_5.webp'/>" alt="14호실_5">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_g_6.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_g_6.webp'/>" alt="14호실_6">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
 					</div>
 				</div>
     		</div>
 			<article class="detail-box">
 				<h2>14호실<span>Room 14</span></h2>
 				<p>모던한 화이트톤 스타일의 객실로 가족들, 지인들끼리 여유롭게 지낼 수 있는 패밀리 객실 입니다.</p>
-				<button><a onclick="reserveDetail();">예약하기</a></button>
+				<button><a onclick="reserve14();">예약하기</a></button>
 				<div class="detail-info">
 					<h3>객실</h3>
 					<ul>
