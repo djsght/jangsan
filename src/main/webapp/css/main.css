@@ -20,7 +20,7 @@
 .reservation-bar li input[type=text]{ font-size: 22px; text-indent: 0; border: 0; }
 .reservation-bar li button{ position: absolute; right: 40px; top: 60px; transform: translateY(-50%); width: 15px; height: 13px; background: url('/img/reservation_button.png') no-repeat center; font-size: 0; }
 .reservation-bar .search-button{ padding: 0; width: 120px;}
-.reservation-bar .search-button a{ display: block; width: 100%; background-color: #AF8D5D; line-height: 50px; font-size: 22px; color: #fff; cursor: pointer;}
+.reservation-bar .search-button a{ display: block; width: 100%; background-color: #AF8D5D; line-height: 50px; font-size: 20px; color: #fff; cursor: pointer;}
 
 .main-contents{ position: relative; padding: 60px 0 90px; width: 100%; min-width: 1320px; font-size: 0;}
 .main-contents h2{ display: block; position: relative; margin: 0 auto 60px; width: 240px; font-size: 30px; font-weight: 500; color: #333333; text-align: center;}
