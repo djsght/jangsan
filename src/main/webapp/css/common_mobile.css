@@ -58,10 +58,16 @@ article h2 span{ padding-top: .1rem; font-size: .8rem;}
 .detail-box .detail-info ul li{ padding: .25rem 0; font-size: .7rem;}
 .detail-box .detail-info ul li::before{ padding-right: .25rem;}
 .detail-box .detail-info ul:nth-of-type(1){ grid-column: auto; grid-row: auto; border: 0;}
-.detail-box .detail-info ul:nth-of-type(2){ grid-column: auto; grid-row: auto;}
+.detail-box .detail-info ul:nth-of-type(2){ grid-column: auto; grid-row: auto; border: 0;}
+.detail-box .detail-info ul:nth-of-type(3){ grid-column: auto; grid-row: auto;}
 .detail-box .detail-info h3.special + ul{ grid-column: auto; grid-row: auto; padding: 0 1rem;}
 .detail-box .detail-info h3.special + ul li{ padding: .75rem 1rem; border-bottom: .05rem solid #C7C7C7;}
 .detail-box .detail-info h3.special + ul li h4{ padding-bottom: .5rem; font-size: .7rem;}
+.detail-box .detail-info.eight{ grid-template-columns: 1fr;}
+.detail-box .detail-info.eight h3.special + ul{ grid-column: auto;}
+.detail-box .notes{ padding: 1.5rem 0 1rem;}
+.detail-box .notes h4{ padding-bottom: .25rem; font-size: .8rem;} 
+.detail-box .notes p{ padding-top: 0.75rem; padding-bottom: 0; font-size: .7rem;} 
 .detail-box.etc p,.detail-box.etc.menu p{ width: 100%;}
 .detail-box.etc .detail-info{ grid-template-columns: 1fr;}
 .detail-box.etc .detail-info ul:nth-of-type(2){ grid-column: auto;}

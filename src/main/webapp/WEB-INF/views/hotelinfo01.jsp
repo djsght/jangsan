@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>장산콘도 > 콘도소개 > 인사말</title>
+<title>장산콘도</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">

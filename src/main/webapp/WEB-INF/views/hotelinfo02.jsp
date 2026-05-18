@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>장산콘도 > 콘도소개 > 이용안내</title>
+<title>장산콘도</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -35,24 +35,6 @@
 					<li>성수기 예약은 보통 매년 6월부터 가능합니다.</li>
 				</li>
 			</article>
-			<!--article class='term'>
-				<h2>객실 예약 취소 약관<span>Room Reservation Cancellation Terms and Conditions</span></h2>
-				<span>- 성수기 취소약관 (7 ~ 8월 및 연휴, 연말 기간)</span>
-				<ul>
-					<li>7일전 위약금 0%</li>
-					<li>6일전 위약금 20%</li>
-					<li>5일전 위약금 40%</li>
-					<li>4일전 위약금 60%</li>
-					<li>3일전 ~ 당일위약금 100%</li>
-				</ul>
-				<span>- 비수기(성수기 제외) 취소약관</span>
-				<ul>
-					<li>3일전 위약금 0%</li>
-					<li>2일전 위약금 20%</li>
-					<li>1일전 위약금 50%</li>
-					<li>당일 위약금 100% (노쇼우 포함) - 호텔 상황에 따라 예약 날짜이동은 가능하십니다.</li>
-				</ul>
-			</article-->
 			<article class="information">
 				<h2>콘도정보<span>Condo Information</span></h2>
 				<p>

@@ -27,7 +27,7 @@
 			},
 			on:{
 				slideChangeTransitionEnd: function(){
-					const page = 8;
+					const page = 6;
 					let = index = this.activeIndex
 					if(index == 0 || index == (page+1)){
 						index = Math.abs(index - page);
@@ -49,7 +49,7 @@
 			},
 			on:{
 				slideChangeTransitionEnd: function(){
-					const page = 5;
+					const page = 12;
 					let = index = this.activeIndex
 					if(index == 0 || index == (page+1)){
 						index = Math.abs(index - page);
@@ -425,7 +425,7 @@
 					</div>
 				</div>
 				<div id="accomm-swiper-next" class="swiper-button-next"></div>
-				<span id="accomm-page" class="page-number">1/7</span>
+				<span id="accomm-page" class="page-number">1/6</span>
 				<div id="accomm-swiper-prev" class="swiper-button-prev"></div>
 			</div>
 		</div>
@@ -451,7 +451,7 @@
 					<li><a onclick="tab(3)">뷔페(연회장)</a></li>
 					<li><a onclick="tab(4)">커피숍</a></li>
 				</ul--%>
-				<img src="<c:url value='/img/webp/restaurant.webp'/>">
+				<img src="<c:url value='/img/webp/restaurant_1.webp'/>">
 			</div>
 		</div>
 	</div>
@@ -462,7 +462,7 @@
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="만항재 사진" src="<c:url value='/img/webp/tour_4.webp'/>">
+	    					<img alt="만항재 사진" src="<c:url value='/img/webp/tour_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
 		    						<span>만항재</span>
@@ -507,7 +507,52 @@
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="황지연못 사진" src="<c:url value='/img/webp/tour_1.webp'/>">
+	    					<img alt="태백산천제단 사진" src="<c:url value='/img/webp/tour_4.webp'/>">
+	    					<div class="card-container">
+		    					<div class="card-title">
+		    						<span>태백산 천제단</span>
+		    						<span>태백산 천제단</span>
+		    					</div>
+		    					<div class="card-content">
+		    						민족의 영산이라 불리는 태백산 정상에 위치한 천제단은 예로부터 하늘에 제사를 지내던 신성한 역사적 명소이자 장엄한 백두대간의 능선이 한눈에 들어오는 최고의 조망터이며, 사계절 수려한 풍경과 특히 겨울철 환상적인 눈꽃 비경을 자랑해 일상의 스트레스를 비우고 청정한 기운을 얻고 가기 좋은 필수 코스입니다.
+		    					</div>
+		    					<a href="/facilities01">더 보기</a>
+		    				</div>
+	    				</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="so-card">
+	    					<img alt="칠랑이계곡 사진" src="<c:url value='/img/webp/tour_5.webp'/>">
+	    					<div class="card-container">
+		    					<div class="card-title">
+		    						<span>칠랑이계곡</span>
+		    						<span>칠랑이계곡</span>
+		    					</div>
+		    					<div class="card-content">
+		    						영월 상동읍의 청정 자연 속에 숨겨진 칠랑이계곡은 기암괴석 사이로 옥빛의 맑고 찬 계곡물이 굽이쳐 흐르는 천혜의 힐링 명소이며, 울창한 숲이 천연 그늘을 만들어주어 한여름 무더위를 피하기에 더없이 훌륭한 장소이자 복잡한 도심을 벗어나 온전한 자연의 소리를 들으며 휴식을 취하고 싶은 여행객들에게 최고의 쉼터를 제공합니다.
+		    					</div>
+		    					<a href="/facilities01">더 보기</a>
+		    				</div>
+	    				</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="so-card">
+	    					<img alt="태백석탄박물관 사진" src="<c:url value='/img/webp/tour_6.webp'/>">
+	    					<div class="card-container">
+		    					<div class="card-title">
+		    						<span>태백석탄박물관</span>
+		    						<span>태백석탄박물관</span>
+		    					</div>
+		    					<div class="card-content">
+		    						태백산 당골계곡 초입에 자리한 태백석탄박물관은 과거 대한민국 산업화를 이끈 석탄 산업의 역사와 광부들의 삶을 생생하게 기록한 국내 최대 규모의 석탄 전문 박물관이며, 모의 갱도 체험 등 다채로운 전시를 통해 아이들에게는 유익한 교육의 기회를, 어른들에게는 아련한 향수를 선사합니다.
+		    					</div>
+		    					<a href="/facilities01">더 보기</a>
+		    				</div>
+	    				</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="so-card">
+	    					<img alt="황지연못 사진" src="<c:url value='/img/webp/tour_7.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
 		    						<span>황지연못</span>
@@ -522,22 +567,82 @@
 					</div>
 					<div class="swiper-slide">
 						<div class="so-card">
-	    					<img alt="검룡소 사진" src="<c:url value='/img/webp/tour_5.webp'/>">
+	    					<img alt="태백365세이프타운 사진" src="<c:url value='/img/webp/tour_8.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>검룡소</span>
-		    						<span>검룡소</span>
+		    						<span>태백 365세이프타운</span>
+		    						<span>태백 365세이프타운</span>
 		    					</div>
 		    					<div class="card-content">
-		    						검룡소는 한강 514km의 물길이 시작되는 신비로운 발원지로, 사계절 내내 9℃의 차가운 물이 하루 약 2,000톤씩 솟아오르는 자연의 경이로움을 간직한 곳입니다. 석회암반을 뚫고 솟아나온 물이 구불구불한 암반을 타고 흐르는 모습이 마치 용이 몸부림치는 것 같다고 하여 '검룡소'라는 이름이 붙었으며, 주변의 울창한 숲과 이끼 낀 바위들이 어우러져 태고의 신비를 더합니다.
+		    						국내 최대 규모를 자랑하는 청소년 수련 및 안전 체험 테마파크인 태백 365세이프타운은 산불, 지진, 대테러 등 다양한 재난 상황을 3D·4D 시뮬레이터로 생동감 넘치게 체험하며 대처 능력을 배울 수 있는 곳이며, 다채로운 액티비티 시설과 케이블카까지 갖추고 있어 온 가족이 역동적인 하루를 보내기에 제격입니다.
 		    					</div>
 		    					<a href="/facilities01">더 보기</a>
 		    				</div>
 	    				</div>
 					</div>
-				</div>
+					<div class="swiper-slide">
+						<div class="so-card">
+	    					<img alt="삼탄아트마인 사진" src="<c:url value='/img/webp/tour_9.webp'/>">
+	    					<div class="card-container">
+		    					<div class="card-title">
+		    						<span>삼탄아트마인</span>
+		    						<span>삼탄아트마인</span>
+		    					</div>
+		    					<div class="card-content">
+		    						실제 폐광된 삼척탄좌 시설을 창조적인 예술 공간으로 재탄생시킨 감성적인 복합문화단지인 삼탄아트마인은 거친 탄광의 흔적과 현대 미술 작품이 묘한 조화를 이루며 독특한 분위기를 자아내는 곳이며, 유명 드라마 촬영지로도 널리 알려져 있어 특별한 인생 사진을 남기고 싶은 여행객들에게 인기가 높습니다.
+		    					</div>
+		    					<a href="/facilities01">더 보기</a>
+		    				</div>
+	    				</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="so-card">
+	    					<img alt="하이원워터월드 사진" src="<c:url value='/img/webp/tour_10.webp'/>">
+	    					<div class="card-container">
+		    					<div class="card-title">
+		    						<span>하이원 워터월드</span>
+		    						<span>하이원 워터월드</span>
+		    					</div>
+		    					<div class="card-content">
+		    						사계절 내내 역동적인 물놀이를 즐길 수 있는 하이원 워터월드는 거대한 파도풀과 아찔한 슬라이드는 물론 피로를 풀 수 있는 따뜻한 힐링 스파 시설까지 완벽하게 갖춘 대형 테마파크이며, 여름철 시원한 스릴을 즐기려는 젊은 층부터 사계절 내내 안전한 물놀이를 원하는 가족 단위 여행객까지 모두를 만족시키는 최고의 휴양 시설입니다.
+		    					</div>
+		    					<a href="/facilities01">더 보기</a>
+		    				</div>
+	    				</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="so-card">
+	    					<img alt="구문소 사진" src="<c:url value='/img/webp/tour_11.webp'/>">
+	    					<div class="card-container">
+		    					<div class="card-title">
+		    						<span>구문소</span>
+		    						<span>구문소</span>
+		    					</div>
+		    					<div class="card-content">
+		    						천연기념물로 지정된 신비로운 지형인 구문소는 거대한 석문 사이로 강물이 산을 뚫고 지나가는 독특하고 웅장한 자연의 기적을 감상할 수 있는 명소이며, 수억 년의 세월이 새겨진 석회암 암벽과 고생대 화석지층이 잘 보존되어 있어 마치 시간 여행을 떠난 듯한 이색적인 풍경 속에서 멋진 사진을 남길 수 있습니다.
+		    					</div>
+		    					<a href="/facilities01">더 보기</a>
+		    				</div>
+	    				</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="so-card">
+	    					<img alt="별마로천문대 사진" src="<c:url value='/img/webp/tour_12.webp'/>">
+	    					<div class="card-container">
+		    					<div class="card-title">
+		    						<span>별마로천문대</span>
+		    						<span>별마로천문대</span>
+		    					</div>
+		    					<div class="card-content">
+		    						해발 799m의 봉래산 정상에 위치하여 '별을 보는 고요한 정상'이라는 뜻을 가진 별마로천문대는 시민천문대 중 최대 규모의 주망원경을 통해 밤하늘의 신비로운 별자리와 행성을 생생하게 관측할 수 있는 감성 여행지이며, 천문대 주변 활공장에서 내려다보는 영월 시내의 아늑하고 탁 트인 야경이 환상적인 감동을 선사해 연인과 가족들에게 평생 잊지 못할 밤을 선물합니다.
+		    					</div>
+		    					<a href="/facilities01">더 보기</a>
+		    				</div>
+	    				</div>
+					</div>
+</div>
 				<div id="facil-swiper-next" class="swiper-button-next"></div>
-				<span id="facil-page" class="page-number">1/5</span>
+				<span id="facil-page" class="page-number">1/12</span>
 				<div id="facil-swiper-prev" class="swiper-button-prev"></div>
 			</div>
 		</div>
