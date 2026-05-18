@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>태백호텔 > 사이트맵</title>
+<title>장산콘도 > 사이트맵</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -17,7 +17,7 @@
 				<h2>사이트맵<span>Site map</span></h2>
 				<div class="sitemap-container">
 					<ul>
-						<li><h3><a href="/hotelinfo01">호텔소개</a></h3></li>
+						<li><h3><a href="/hotelinfo01">콘도소개</a></h3></li>
 						<li><a href="/hotelinfo01">인사말</a></li>
 						<li><a href="/hotelinfo02">이용안내</a></li>
 						<li><a href="/hotelinfo03">오시는길</a></li>
