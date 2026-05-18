@@ -38,6 +38,23 @@
 			},
 		}); 
 	}); 
+	
+	function reserve6(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630202?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
+	function reserve7(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630203?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
+	function reserve9(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630205?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
+	function reserve10(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630206?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
 </script>
 <body>
 	<div class="forward accommodation"></div>
@@ -101,32 +118,32 @@
 							<span>Room 6</span>
 						</div>
 						<div class="word-background"></div>
-						<img src="/img/ready.svg">
-						<button><a onclick="reserveDetail();">예약하기</a></button>
+						<img src="<c:url value='/img/webp/accomm_ex_6.webp'/>" alt="6호실_전경">
+						<button><a onclick="reserve6();">예약하기</a></button>
 					</div>
 					<div class="card">
 						<div class="word-container">
 							<h2>7호실</h2>
 							<span>Room 7</span>
 						</div>
-						<img src="/img/ready.svg">
-						<button><a onclick="reserveDetail();">예약하기</a></button>
+						<img src="<c:url value='/img/webp/accomm_ex_7.webp'/>" alt="7호실_전경">
+						<button><a onclick="reserve7();">예약하기</a></button>
 					</div>
 					<div class="card">
 						<div class="word-container">
 							<h2>9호실</h2>
 							<span>Room 9</span>
 						</div>
-						<img src="/img/ready.svg">
-						<button><a onclick="reserveDetail();">예약하기</a></button>
+						<img src="<c:url value='/img/webp/accomm_ex_9.webp'/>" alt="9호실_전경">
+						<button><a onclick="reserve9();">예약하기</a></button>
 					</div>
 					<div class="card">
 						<div class="word-container">
 							<h2>10호실</h2>
 							<span>Room 10</span>
 						</div>
-						<img src="/img/ready.svg">
-						<button><a onclick="reserveDetail();">예약하기</a></button>
+						<img src="<c:url value='/img/webp/accomm_ex_10.webp'/>" alt="10호실_전경">
+						<button><a onclick="reserve10();">예약하기</a></button>
 					</div>
 				</div>
 				<div class="detail-info">

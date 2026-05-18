@@ -6,6 +6,11 @@
 .forward::before{ height: 1.5rem;}
 .forward .container{ padding: 0; width: 100%;}
 .forward .tab-bar li a{ font-size: .6rem; line-height: 1.5rem;}
+.forward.hotel-info{ background-image: url(/img/webp/info_header_m.webp);}
+.forward.accommodation{ background-image: url(/img/webp/accomm_header_m.webp);}
+.forward.dining{ background-image: url(/img/webp/restaurant_header_m.webp);}
+.forward.facilities{ background-image: url(/img/webp/tour_header_m.webp);}
+.forward.site-map{ background-image: url(/img/info_header_m.png);}
 
 main{ padding: 2rem 0 2.5rem;}
 
@@ -42,7 +47,7 @@ article h2 span{ padding-top: .1rem; font-size: .8rem;}
 .location ul li{ padding: .375rem 0; text-indent: 0;  font-size: .7rem; color: #666666;}
 #map{ height: 15rem;}
 
-.accomm-tab-bar{ margin: 0 0 1.5rem; width: 100%;}
+.accomm-tab-bar{ display: grid; grid-template-columns: repeat(3, 1fr); margin: 0 0 1.5rem; width: 100%;}
 .accomm-tab-bar li{ border: .05rem solid #E2E2E2;}
 .accomm-tab-bar li a{ font-size: .6rem; line-height: 1.4rem;}
 
@@ -67,7 +72,15 @@ article h2 span{ padding-top: .1rem; font-size: .8rem;}
 .detail-box .detail-info.eight h3.special + ul{ grid-column: auto;}
 .detail-box .notes{ padding: 1.5rem 0 1rem;}
 .detail-box .notes h4{ padding-bottom: .25rem; font-size: .8rem;} 
-.detail-box .notes p{ padding-top: 0.75rem; padding-bottom: 0; font-size: .7rem;} 
+.detail-box .notes p{ padding-top: 0.75rem; padding-bottom: 0; font-size: .7rem;}
+.detail-box .card-container{ padding-bottom: 3rem; margin: 0 auto; max-width: 30rem;}
+.detail-box .card-container.even{ grid-template-columns: 1fr; gap: 1rem;}
+.detail-box .card-container.odd{ grid-template-columns: 1fr; gap: 1rem;}
+.detail-box .card-container .card .word-container{ top: 2.5rem;}
+.detail-box .card-container .card .word-container h2{ margin: 0 2.5rem; font-size: 1rem;}
+.detail-box .card-container .card .word-container span{ font-size: .8rem;}
+.detail-box .card-container .card button{ bottom: 2rem;}
+.detail-box .card-container .card img{ height: 16rem;}
 .detail-box.etc p,.detail-box.etc.menu p{ width: 100%;}
 .detail-box.etc .detail-info{ grid-template-columns: 1fr;}
 .detail-box.etc .detail-info ul:nth-of-type(2){ grid-column: auto;}

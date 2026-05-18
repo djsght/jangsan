@@ -38,6 +38,10 @@
 			},
 		}); 
 	}); 
+	function reserve8(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630204?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
 </script>
 <body>
 	<div class="forward accommodation"></div>
@@ -84,7 +88,7 @@
 			<article class="detail-box">
 				<h2>8호실<span>Room 8</span></h2>
 				<p>저렴하면서 실속있게 따뜻한 온돌방을 즐길 수 있는 객실입니다.</p>
-				<button><a onclick="reserveDetail();">예약하기</a></button>
+				<button><a onclick="reserve8();">예약하기</a></button>
 				<div class="detail-info eight">
 					<h3>객실</h3>
 					<ul>

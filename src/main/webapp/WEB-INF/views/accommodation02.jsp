@@ -38,6 +38,10 @@
 			},
 		}); 
 	}); 
+	function reserve15(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/3203348?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
 </script>
 <body>
 	<div class="forward accommodation"></div>
@@ -84,7 +88,7 @@
 			<article class="detail-box">
 				<h2>15호실<span>Room 15</span></h2>
 				<p>침실이 1개인 객실로 가성비가 좋은 객실입니다.</p>
-				<button><a onclick="reserveDetail();">예약하기</a></button>
+				<button><a onclick="reserve15();">예약하기</a></button>
 				<div class="detail-info">
 					<h3>객실</h3>
 					<ul>

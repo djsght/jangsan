@@ -105,13 +105,13 @@
 	
 	function reserve(){
 		
-		var hcode = 'H0226';
-		var start_date = $('#datepicker1').val();
-		var end_date = $('#datepicker2').val();
+//		var hcode = 'H0226';
+//		var start_date = $('#datepicker1').val();
+//		var end_date = $('#datepicker2').val();
 		
 // 		console.log('# start_date : '+start_date);
 // 		console.log('# end_date : '+end_date);
-
+/*
 		if(end_date == start_date){
 			alert('체크아웃과 체크인이 동일할 수 없습니다.');
 			return;
@@ -138,12 +138,13 @@
 		if($('#sel_children option:selected').val() > 0){
 			children =  $('#sel_children option:selected').val();
 		}
-		
+*/		
 // 		console.log('# rooms : '+rooms);
 // 		console.log('# adults : '+adults);
 // 		console.log('# children : '+children);
 		
-		var url = 'https://codybooking.com/reservation/?code='+hcode+'&checkIn='+start_date+'&checkOut='+end_date+'&adult='+adults+'&child='+children+'&room='+rooms;
+//		var url = 'https://codybooking.com/reservation/?code='+hcode+'&checkIn='+start_date+'&checkOut='+end_date+'&adult='+adults+'&child='+children+'&room='+rooms;
+		var url = 'https://pcmap.place.naver.com/restaurant/12382930/booking?entry=pll&from=map&fromNxList=true&fromPanelNum=1&additionalHeight=76&timestamp=202605051459&locale=ko&svcName=map_pcv5';
 		window.open(url, "_blank");
 	}
 	
@@ -205,66 +206,6 @@
 	<div class="main-picture">
 		<div class="reservation-bar-container">
 			<ul class="reservation-bar">
-				<li class="check-in">
-					<span class="reserv-title">Check In</span>
-					<input type="text" id="datepicker1">
-					<button>체크인</button>
-				</li>
-				<li class="check-out">
-					<span class="reserv-title">Check Out</span>
-					<input type="text" id="datepicker2">
-					<button>체크아웃</button>
-				</li>
-				<li class="room">
-					<span class="reserv-title">Rooms</span>
-					<select id="sel_rooms">
-						<option value="1" selected>1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-					</select>
-				</li>
-				<li class="headcount-adult">
-					<span class="reserv-title">Adults</span>
-					<select id="sel_adults">
-						<option value="1" selected>1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-						<option value="9">9</option>
-						<option value="10">10</option>
-						<option value="11">11</option>
-						<option value="12">12</option>
-						<option value="13">13</option>
-						<option value="14">14</option>
-						<option value="15">15</option>
-						<option value="16">16</option>
-						<option value="17">17</option>
-						<option value="18">18</option>
-						<option value="19">19</option>
-						<option value="20">20</option>
-					</select>
-				</li>
-				<li class="headcount-children">
-					<span class="reserv-title">Children</span>
-					<select id="sel_children">
-						<option value="0" selected>0</option>
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-						<option value="9">9</option>
-					</select>
-				</li>
 				<li class="search-button"><a onclick="reserve();">예약하기</a></li>
 			</ul>
 		</div>

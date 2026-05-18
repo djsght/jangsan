@@ -37,7 +37,11 @@
 				swiper: thumbs_swiper,
 			},
 		}); 
-	}); 
+	});
+	function reserve14(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/3203337?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
 </script>
 <body>
 	<div class="forward accommodation"></div>
@@ -108,7 +112,7 @@
 			<article class="detail-box">
 				<h2>14호실<span>Room 14</span></h2>
 				<p>모던한 화이트톤 스타일의 객실로 가족들, 지인들끼리 여유롭게 지낼 수 있는 패밀리 객실 입니다.</p>
-				<button><a onclick="reserveDetail();">예약하기</a></button>
+				<button><a onclick="reserve14();">예약하기</a></button>
 				<div class="detail-info">
 					<h3>객실</h3>
 					<ul>

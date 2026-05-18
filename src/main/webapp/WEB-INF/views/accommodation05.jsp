@@ -38,6 +38,18 @@
 			},
 		}); 
 	}); 
+	function reserve1(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630180?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
+	function reserve3(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7643435?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
+	function reserve5(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7643443?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
 </script>
 <body>
 	<div class="forward accommodation"></div>
@@ -101,24 +113,24 @@
 							<span>Room 1</span>
 						</div>
 						<div class="word-background"></div>
-						<img src="/img/ready.svg">
-						<button><a onclick="reserveDetail();">예약하기</a></button>
+						<img src="<c:url value='/img/webp/accomm_ex_1.webp'/>" alt="1호실_전경">
+						<button><a onclick="reserve1();">예약하기</a></button>
 					</div>
 					<div class="card">
 						<div class="word-container">
 							<h2>3호실</h2>
 							<span>Room 3</span>
 						</div>
-						<img src="/img/ready.svg">
-						<button><a onclick="reserveDetail();">예약하기</a></button>
+						<img src="<c:url value='/img/webp/accomm_ex_3.webp'/>" alt="3호실_전경">
+						<button><a onclick="reserve3();">예약하기</a></button>
 					</div>
 					<div class="card">
 						<div class="word-container">
 							<h2>5호실</h2>
 							<span>Room 5</span>
 						</div>
-						<img src="/img/ready.svg">
-						<button><a onclick="reserveDetail();">예약하기</a></button>
+						<img src="<c:url value='/img/webp/accomm_ex_5.webp'/>" alt="5호실_전경">
+						<button><a onclick="reserve5();">예약하기</a></button>
 					</div>
 				</div>
 				<div class="detail-info">
