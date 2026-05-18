@@ -5,7 +5,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>태백호텔</title>
+<title>장산콘도</title>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
@@ -288,8 +288,8 @@
 	    					<img alt="typeA 사진" src="<c:url value='/img/webp/accomm_a_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Type A</span>
-		    						<span>타입 A</span>
+		    						<span>Room 8</span>
+		    						<span>8호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						유럽풍의 엔틱 가구로 된 넓은 공간에서 부부, 연인들이 행복한 시간을 가질 수 있으며 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
@@ -307,8 +307,8 @@
 	    					<img alt="typeB 사진" src="<c:url value='/img/webp/accomm_b_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Type B</span>
-		    						<span>타입 B</span>
+		    						<span>Room 15</span>
+		    						<span>15호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						유럽풍의 엔틱 가구로 된 넓은 공간에서 산 전망을 즐기면서 가족들끼리 힐링의 시간을 가질 수 있는 객실입니다.
@@ -326,8 +326,8 @@
 	    					<img alt="typeC 사진" src="<c:url value='/img/webp/accomm_c_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Type C</span>
-		    						<span>타입 C</span>
+									<span>Room 6,7,9,10</span>
+		    						<span>6,7,9,10호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						대부분의 객실이 산 전망을 즐길 수 있고 부부, 연인들이 즐거운 시간을 가질 수 있으며 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
@@ -342,13 +342,13 @@
 		    				</div>
 	    				</div>
 					</div>
-					<div class="swiper-slide">
+					<%--div class="swiper-slide">
 						<div class="so-card">
 	    					<img alt="typeD 사진" src="/img/ready.svg">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Type D</span>
-		    						<span>타입 D</span>
+									<span>Room 2</span>
+		    						<span>2호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						다소 넓은 공간으로 가족들이 여유롭게 지낼 수 있는 객실입니다.
@@ -359,14 +359,14 @@
 		    					</div>
 		    				</div>
 	    				</div>
-					</div>
+					</div--%>
 					<div class="swiper-slide">
 						<div class="so-card">
 	    					<img alt="typeE 사진" src="<c:url value='/img/webp/accomm_e_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Type E</span>
-		    						<span>타입 E</span>
+									<span>Room 1,3,5</span>
+		    						<span>1,3,5호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						산 전망을 즐길 수 있으며 다소 저렴하게 부부, 연인들 끼리 힐링 할 수 있는 객실로 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
@@ -386,8 +386,8 @@
 	    					<img alt="typeF 사진" src="<c:url value='/img/webp/accomm_f_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Type F</span>
-		    						<span>타입 F</span>
+									<span>Room 11,12,13</span>
+		    						<span>11,12,13호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						산 전망을 즐길 수 있으며 다소 저렴하게 가족들끼리 힐링 할 수 있는 객실입니다.
@@ -407,8 +407,8 @@
 	    					<img alt="typeG 사진" src="<c:url value='/img/webp/accomm_g_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Type G</span>
-		    						<span>타입 G</span>
+									<span>Room 14</span>
+		    						<span>14호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						작지만 두 개의 침실로 된 공간 활용도가 높은 객실입니다.

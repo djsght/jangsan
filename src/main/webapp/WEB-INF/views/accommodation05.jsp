@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>장산콘도 > 객실 > 1,3,5호실</title>
+<title>장산콘도</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -55,16 +55,19 @@
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_e_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_1.webp'/>" alt="1,3,5호실_1">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_e_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_2.webp'/>" alt="1,3,5호실_2">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_e_3.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_3.webp'/>" alt="1,3,5호실_3">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_e_4.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_4.webp'/>" alt="1,3,5호실_4">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
 					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
@@ -74,16 +77,19 @@
 			<div thumbsSlider="" class="swiper thumbs-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_e_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_1.webp'/>" alt="1,3,5호실_1">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_e_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_2.webp'/>" alt="1,3,5호실_2">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_e_3.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_3.webp'/>" alt="1,3,5호실_3">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_e_4.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_e_4.webp'/>" alt="1,3,5호실_4">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
 					</div>
 				</div>
     		</div>

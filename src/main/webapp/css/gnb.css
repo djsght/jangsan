@@ -54,7 +54,7 @@ footer .footer-container .corp-area ul li:last-child::after{content: none;}
 footer .footer-container .corp-area select{ position: absolute; top: 16px; right: 0; line-height: 20px; border-radius: 0; font-size: 12px; }
 footer .footer-container .footer-logo{ display: inline-block; margin: 0 86px 42px 0;} 
 footer .footer-container .footer-logo span{ display: inline-block; font-size: 30px; line-height: 127px; color: #fff;}
-footer .footer-container .footer-logo span::before{ content: url("/img/jangsan-logo_small.png"); display: inline-block; padding-right: 12px; line-height: 0; vertical-align: text-bottom; }
+/*footer .footer-container .footer-logo span::before{ content: url("/img/jangsan-logo_small.png"); display: inline-block; padding-right: 12px; line-height: 0; vertical-align: text-bottom; }*/
 footer .footer-container address{ display: inline-block; margin-top: 30px; font-size: 0; vertical-align: top;}
 footer .footer-container address p{ margin-bottom: 9px; font-size: 12px; color: #fff;}
 footer .footer-container address p a{ color: #fff;}

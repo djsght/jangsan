@@ -16,7 +16,7 @@
 			<ul>
 				<li><a onclick="popup_open()">이메일무단수집금지</a></li>
 				<li><a href="/sitemap">사이트맵</a></li>
-				<li>SNS</li>
+				<%--li>SNS</li--%>
 			</ul>
 			<select onchange="family_open(value)">
 				<option value="none" selected>패밀리사이트</option>

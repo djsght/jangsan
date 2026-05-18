@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>장산콘도 > 객실 > 15호실</title>
+<title>장산콘도</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -55,10 +55,13 @@
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_b_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_b_1.webp'/>" alt="15호실_1">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_b_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_b_2.webp'/>" alt="15호실_2">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
 					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
@@ -68,10 +71,13 @@
 			<div thumbsSlider="" class="swiper thumbs-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_b_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_b_1.webp'/>" alt="15호실_1">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_b_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_b_2.webp'/>" alt="15호실_2">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
 					</div>
 				</div>
     		</div>
