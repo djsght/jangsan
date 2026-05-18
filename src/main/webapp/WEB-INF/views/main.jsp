@@ -105,13 +105,13 @@
 	
 	function reserve(){
 		
-		var hcode = 'H0226';
-		var start_date = $('#datepicker1').val();
-		var end_date = $('#datepicker2').val();
+//		var hcode = 'H0226';
+//		var start_date = $('#datepicker1').val();
+//		var end_date = $('#datepicker2').val();
 		
 // 		console.log('# start_date : '+start_date);
 // 		console.log('# end_date : '+end_date);
-
+/*
 		if(end_date == start_date){
 			alert('체크아웃과 체크인이 동일할 수 없습니다.');
 			return;
@@ -138,12 +138,13 @@
 		if($('#sel_children option:selected').val() > 0){
 			children =  $('#sel_children option:selected').val();
 		}
-		
+*/		
 // 		console.log('# rooms : '+rooms);
 // 		console.log('# adults : '+adults);
 // 		console.log('# children : '+children);
 		
-		var url = 'https://codybooking.com/reservation/?code='+hcode+'&checkIn='+start_date+'&checkOut='+end_date+'&adult='+adults+'&child='+children+'&room='+rooms;
+//		var url = 'https://codybooking.com/reservation/?code='+hcode+'&checkIn='+start_date+'&checkOut='+end_date+'&adult='+adults+'&child='+children+'&room='+rooms;
+		var url = 'https://pcmap.place.naver.com/restaurant/12382930/booking?entry=pll&from=map&fromNxList=true&fromPanelNum=1&additionalHeight=76&timestamp=202605051459&locale=ko&svcName=map_pcv5';
 		window.open(url, "_blank");
 	}
 	
@@ -205,66 +206,6 @@
 	<div class="main-picture">
 		<div class="reservation-bar-container">
 			<ul class="reservation-bar">
-				<li class="check-in">
-					<span class="reserv-title">Check In</span>
-					<input type="text" id="datepicker1">
-					<button>체크인</button>
-				</li>
-				<li class="check-out">
-					<span class="reserv-title">Check Out</span>
-					<input type="text" id="datepicker2">
-					<button>체크아웃</button>
-				</li>
-				<li class="room">
-					<span class="reserv-title">Rooms</span>
-					<select id="sel_rooms">
-						<option value="1" selected>1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-					</select>
-				</li>
-				<li class="headcount-adult">
-					<span class="reserv-title">Adults</span>
-					<select id="sel_adults">
-						<option value="1" selected>1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-						<option value="9">9</option>
-						<option value="10">10</option>
-						<option value="11">11</option>
-						<option value="12">12</option>
-						<option value="13">13</option>
-						<option value="14">14</option>
-						<option value="15">15</option>
-						<option value="16">16</option>
-						<option value="17">17</option>
-						<option value="18">18</option>
-						<option value="19">19</option>
-						<option value="20">20</option>
-					</select>
-				</li>
-				<li class="headcount-children">
-					<span class="reserv-title">Children</span>
-					<select id="sel_children">
-						<option value="0" selected>0</option>
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-						<option value="9">9</option>
-					</select>
-				</li>
 				<li class="search-button"><a onclick="reserve();">예약하기</a></li>
 			</ul>
 		</div>
@@ -288,8 +229,8 @@
 	    					<img alt="typeA 사진" src="<c:url value='/img/webp/accomm_a_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Type A</span>
-		    						<span>타입 A</span>
+		    						<span>Room 8</span>
+		    						<span>8호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						유럽풍의 엔틱 가구로 된 넓은 공간에서 부부, 연인들이 행복한 시간을 가질 수 있으며 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
@@ -307,8 +248,8 @@
 	    					<img alt="typeB 사진" src="<c:url value='/img/webp/accomm_b_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-		    						<span>Type B</span>
-		    						<span>타입 B</span>
+		    						<span>Room 15</span>
+		    						<span>15호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						유럽풍의 엔틱 가구로 된 넓은 공간에서 산 전망을 즐기면서 가족들끼리 힐링의 시간을 가질 수 있는 객실입니다.
@@ -326,8 +267,8 @@
 	    					<img alt="typeC 사진" src="<c:url value='/img/webp/accomm_c_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Type C</span>
-		    						<span>타입 C</span>
+									<span>Room 6,7,9,10</span>
+		    						<span>6,7,9,10호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						대부분의 객실이 산 전망을 즐길 수 있고 부부, 연인들이 즐거운 시간을 가질 수 있으며 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
@@ -342,13 +283,13 @@
 		    				</div>
 	    				</div>
 					</div>
-					<div class="swiper-slide">
+					<%--div class="swiper-slide">
 						<div class="so-card">
 	    					<img alt="typeD 사진" src="/img/ready.svg">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Type D</span>
-		    						<span>타입 D</span>
+									<span>Room 2</span>
+		    						<span>2호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						다소 넓은 공간으로 가족들이 여유롭게 지낼 수 있는 객실입니다.
@@ -359,14 +300,14 @@
 		    					</div>
 		    				</div>
 	    				</div>
-					</div>
+					</div--%>
 					<div class="swiper-slide">
 						<div class="so-card">
 	    					<img alt="typeE 사진" src="<c:url value='/img/webp/accomm_e_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Type E</span>
-		    						<span>타입 E</span>
+									<span>Room 1,3,5</span>
+		    						<span>1,3,5호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						산 전망을 즐길 수 있으며 다소 저렴하게 부부, 연인들 끼리 힐링 할 수 있는 객실로 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
@@ -386,8 +327,8 @@
 	    					<img alt="typeF 사진" src="<c:url value='/img/webp/accomm_f_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Type F</span>
-		    						<span>타입 F</span>
+									<span>Room 11,12,13</span>
+		    						<span>11,12,13호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						산 전망을 즐길 수 있으며 다소 저렴하게 가족들끼리 힐링 할 수 있는 객실입니다.
@@ -407,8 +348,8 @@
 	    					<img alt="typeG 사진" src="<c:url value='/img/webp/accomm_g_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Type G</span>
-		    						<span>타입 G</span>
+									<span>Room 14</span>
+		    						<span>14호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						작지만 두 개의 침실로 된 공간 활용도가 높은 객실입니다.

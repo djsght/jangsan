@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>장산콘도 > 객실 > 8호실</title>
+<title>장산콘도</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -38,6 +38,10 @@
 			},
 		}); 
 	}); 
+	function reserve8(){
+		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630204?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		window.open(url, "_blank");
+	}
 </script>
 <body>
 	<div class="forward accommodation"></div>
@@ -55,10 +59,13 @@
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_a_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_a_1.webp'/>" alt="8호실_1">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_a_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_a_2.webp'/>" alt="8호실_2">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
 					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
@@ -68,17 +75,20 @@
 			<div thumbsSlider="" class="swiper thumbs-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_a_1.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_a_1.webp'/>" alt="8호실_1">
 					</div>
 					<div class="swiper-slide">
-						<img src="<c:url value='/img/webp/accomm_a_2.webp'/>" alt="상품 이미지">
+						<img src="<c:url value='/img/webp/accomm_a_2.webp'/>" alt="8호실_2">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
 					</div>
 				</div>
     		</div>
 			<article class="detail-box">
 				<h2>8호실<span>Room 8</span></h2>
 				<p>저렴하면서 실속있게 따뜻한 온돌방을 즐길 수 있는 객실입니다.</p>
-				<button><a onclick="reserveDetail();">예약하기</a></button>
+				<button><a onclick="reserve8();">예약하기</a></button>
 				<div class="detail-info eight">
 					<h3>객실</h3>
 					<ul>

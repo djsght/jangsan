@@ -6,10 +6,10 @@
 .main-picture > p::before{ content: url(/img/jangsan-logo-temp.png); padding-right: 15px; font-size: 0; vertical-align: -13px;}
 .main-picture > p span{ color: #F8F282;}
 
-.reservation-bar-container{ position: absolute; left: 50%; transform: translateX(-50%); bottom: -45px; width: 1200px; height: 90px; background-color: #fff; box-shadow: 0 3px 6px rgba(0,0,0,.16); z-index: 20;}
+.reservation-bar-container{ position: absolute; right: calc((100% - 1320px) / 2); top: 110px; width: 120px; height: 50px; z-index: 20;}
 .reservation-bar{ position: relative; width: 100%; text-align: center; font-size: 0;}
 
-.reservation-bar li{ display: inline-block; position: relative; padding: 0; width: 165px; height: 100%; vertical-align: top;}
+.reservation-bar li{ display: inline-block; position: relative; padding: 0; width: 100%; height: 100%; vertical-align: top;}
 .reservation-bar li.check-in,
 .reservation-bar li.check-out{ padding: 0 40px; width: 170px;}
 .reservation-bar li.headcount-children{ width: 170px;}
@@ -19,8 +19,8 @@
 .reservation-bar li select{ padding: 0 30px; width: 100%; font-size: 22px; border: 0; text-align: left; background: url(/img/reservation_button.png) calc(100% - 30px) center no-repeat; -webkit-appearance:none; -moz-appearance:none; appearance:none;}
 .reservation-bar li input[type=text]{ font-size: 22px; text-indent: 0; border: 0; }
 .reservation-bar li button{ position: absolute; right: 40px; top: 60px; transform: translateY(-50%); width: 15px; height: 13px; background: url('/img/reservation_button.png') no-repeat center; font-size: 0; }
-.reservation-bar .search-button{ padding: 0; width: 200px;}
-.reservation-bar .search-button a{ display: block; width: 100%; background-color: #AF8D5D; line-height: 90px; font-size: 22px; color: #fff; cursor: pointer;}
+.reservation-bar .search-button{ padding: 0; width: 120px;}
+.reservation-bar .search-button a{ display: block; width: 100%; background-color: #AF8D5D; line-height: 50px; font-size: 20px; color: #fff; cursor: pointer;}
 
 .main-contents{ position: relative; padding: 60px 0 90px; width: 100%; min-width: 1320px; font-size: 0;}
 .main-contents h2{ display: block; position: relative; margin: 0 auto 60px; width: 240px; font-size: 30px; font-weight: 500; color: #333333; text-align: center;}

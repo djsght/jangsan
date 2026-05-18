@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>장산콘도 > 사이트맵</title>
+<title>장산콘도</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -24,13 +24,13 @@
 					</ul>
 					<ul>
 						<li><h3><a href="/accommodation01">객실</a></h3></li>
-						<li><a href="/accommodation01">Type A</a></li>
-						<li><a href="/accommodation02">Type B</a></li>
-						<li><a href="/accommodation03">Type C</a></li>
-						<li><a href="/accommodation04">Type D</a></li>
-						<li><a href="/accommodation05">Type E</a></li>
-						<li><a href="/accommodation06">Type F</a></li>
-						<li><a href="/accommodation07">Type G</a></li>
+						<li><a href="/accommodation01">8호실</a></li>
+						<li><a href="/accommodation02">15호실</a></li>
+						<li><a href="/accommodation03">6,7,9,10호실</a></li>
+						<%--li><a href="/accommodation04">2호실</a></li--%>
+						<li><a href="/accommodation05">1,3,5호실</a></li>
+						<li><a href="/accommodation06">11,12,13호실</a></li>
+						<li><a href="/accommodation07">14호실</a></li>
 					</ul>
 					<ul>
 						<li><h3><a href="/dining01">레스토랑</a></h3></li>

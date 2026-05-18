@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.main-picture{ min-width: initial; height: auto; background: url(/img/main-img.jpg) no-repeat center 0; background-size: auto 20rem;}
+.main-picture{ min-width: initial; height: auto; background: url("/img/webp/main.webp") no-repeat center 0; background-size: auto 20rem;}
 /* 임시 글귀 용*/
 .main-picture > p{ bottom: auto; top: 5rem; font-size: 1rem;}
 .main-picture > p::before{ content: url(/img/jangsan-logo_M.png); padding-right: .25rem; vertical-align: -.15rem;}

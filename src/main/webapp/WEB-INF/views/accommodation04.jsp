@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>장산콘도 > 객실 > 2호실</title>
+<title>장산콘도</title>
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 </head>
 <script type="text/javascript">
@@ -57,6 +57,9 @@
 					<div class="swiper-slide">
 						<img src="/img/ready.svg" alt="상품 이미지">
 					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
+					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
 				<div id="gallary-swiper-prev" class="swiper-button-prev"></div>
@@ -66,6 +69,9 @@
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<img src="/img/ready.svg" alt="상품 이미지">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/toilet.webp'/>" alt="화장실">
 					</div>
 				</div>
     		</div>

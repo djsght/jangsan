@@ -47,7 +47,7 @@ header .btn-nav.on a i.r1{ top: 1.05rem; transform: rotate(45deg);}
 header .btn-nav.on a i.r2{ right: 2rem; opacity: 0;}
 header .btn-nav.on a i.r3{ top: 1.05rem; transform: rotate(-45deg);}
 
-.bg-header{ height: 4rem; z-index: 10;}
+.bg-header{ min-width: auto; height: 4rem; z-index: 10;}
 .bg-gnb{ left: 0; right: 0; top: 4rem; height: calc(100vh - 4rem); background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0, rgba(66, 66, 66, .7) 90%, rgba(66,66,66,0)); z-index: 2;}
 
 /* footer */
