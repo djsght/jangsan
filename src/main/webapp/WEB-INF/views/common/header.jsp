@@ -149,7 +149,7 @@ function fn_lz(n, digits) {
 			<button class="close"><span class="hide">메뉴 닫기</span></button>
 		</div--%>
 		<ul class="quick-menu">
-			<li><a onclick="reserveDetail();">예약확인</a></li>
+			<li><a href="/hotelinfo02">이용안내</a></li>
 			<li><a href="/hotelinfo03">오시는길</a></li>
 		</ul>
 		<ul class="gnb">
