@@ -160,23 +160,23 @@
 					<ul>
 						<li>
 							<h4>체크인 & 체크아웃 시간</h4>
-							<span>체크인 : (성수기)14:00pm (비수기)15:00pm</span><span>체크아웃 : 11:00am</span>
+							<span>체크인 : 14:00pm(비수기) 15:00pm(성수기)</span><span>체크아웃 : 11:00am</span>
 						</li>
 						<li>
-							<h4>수용인원</h4>
-							<span>2인</span>
+							<h4>수용인원(기준/최대)</h4>
+							<span>5인 / 8인</span>
 						</li>
 						<li>
 							<h4>객실크기</h4>
-							<span>6평</span>
+							<span>19평</span>
 						</li>
 						<li>
 							<h4>객실구성</h4>
-							<span>침실 1개, 욕실 1개</span>
+							<span>침실 2개(더블 1개, 온돌 1개), 거실 1개, 주방 1개, 욕실 1개</span>
 						</li>
 						<li>
 							<h4>예약 및 문의안내</h4>
-							<span>TEL : 033-553-5500</span>
+							<span>TEL : 010-9763-5561</span>
 						</li>
 					</ul>
 				</div>

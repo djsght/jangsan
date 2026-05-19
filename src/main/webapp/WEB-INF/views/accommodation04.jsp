@@ -76,65 +76,53 @@
 				</div>
     		</div>
 			<article class="detail-box">
-				<h2>디럭스<span>Delux</span></h2>
-				<p>산 전망을 즐길 수 있으며 다소 저렴하게 부부, 연인들 끼리 힐링 할 수 있는 객실입니다.</p>
+				<h2>2호실<span>Room 2</span></h2>
+				<p>함백산 자락에서 친구나 가족들과 함께 프라이빗한 쉼을 즐길 수 있는, 공간 활용도가 높은 아늑한 객실입니다.</p>
 				<button><a onclick="reserveDetail();">예약하기</a></button>
 				<div class="detail-info">
 					<h3>객실</h3>
 					<ul>
 						<li>TV</li>
 						<li>인터넷(무료WiFi)</li>
-						<li>냉장고(생수2병)</li>
-						<li>전자렌지</li>
-						<li>커피포트(무료 티 & 커피)</li>
-						<li>머그컵</li>						
-						<li>샤워가운</li>
-						<li>헤어드라이어</li>
-						<li>론드리백</li>
-						<li>메모지 & 볼펜</li>
-						<li>슬리퍼</li>
-						<li>슈크리너</li>
-						<li>구두주걱</li>
+					</ul>
+					<h3>주방</h3>
+					<ul>
+						<li>냉장고</li>
+						<li>전자레인지</li>
+						<li>커피포트</li>
+						<li>인덕션</li>
+						<li>냄비</li>
+						<li>조리기구(프라이팬 제외)</li>
+						<li>식기(밥그릇, 국그릇, 반찬그릇)</li>
 					</ul>
 					<h3>욕실</h3>
 					<ul>
-						<li>욕조</li>
-						<li>욕실용품(샴푸, 린스, 바디워시)</li>
+						<li>헤어드라이기</li>
+						<li>욕실용품(샴푸, 린스)</li>
 						<li>빗</li>
-						<li>화장솜</li>
-						<li>면봉</li>
-						<li>샤워캡</li>
 						<li>양치컵</li>
 					</ul>
 					<h3 class="special">객실정보</h3>
 					<ul>
 						<li>
 							<h4>체크인 & 체크아웃 시간</h4>
-							<span>체크인 : 15:00pm<br>체크아웃 : 11:00am</span>
+							<span>체크인 : 14:00pm(비수기) 15:00pm(성수기)</span><span>체크아웃 : 11:00am</span>
 						</li>
 						<li>
-							<h4>수용인원</h4>
-							<span>2인(최대 4인)</span>
+							<h4>수용인원(기준/최대)</h4>
+							<span>5인 / 6인</span>
 						</li>
 						<li>
 							<h4>객실크기</h4>
-							<span>66m² ~ 89.1m²</span>
+							<span>15평</span>
 						</li>
 						<li>
 							<h4>객실구성</h4>
-							<span>침실 2개(침대크기 : 1,500 x 2,000mm 2개), 욕실 2개(206호 3개)</span>
-						</li>
-						<li>
-							<h4>난방방식</h4>
-							<span>2WAY(천장히터, 바닥난방)</span>
-						</li>
-						<li>
-							<h4>혜택사항</h4>
-							<span>부대시설 이용시 할인 적용<br>무료주차(1객실 당 1대)</span>
+							<span>침실 2개(더블 1개, 온돌 1개), 거실 1개, 주방 1개, 욕실 1개</span>
 						</li>
 						<li>
 							<h4>예약 및 문의안내</h4>
-							<span>TEL : 033-553-5500</span>
+							<span>TEL : 010-9763-5561</span>
 						</li>
 					</ul>
 				</div>
