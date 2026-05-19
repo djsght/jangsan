@@ -18,7 +18,7 @@
 				<li><a href="/sitemap">사이트맵</a></li>
 				<li>
 					<span>SNS</span>
-					<a class="instagram" href="https://www.instagram.com/jangsan_.p?igsh=Y2xvajB2emUyc256"><img src="/img/instagram-line.svg"></a>
+					<a class="instagram" href="https://www.instagram.com/jangsan_.p?igsh=Y2xvajB2emUyc256" target="_blank"><img src="/img/instagram-line.svg"></a>
 				</li>
 			</ul>
 			<select onchange="family_open(value)">
