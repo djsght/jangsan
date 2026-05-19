@@ -38,7 +38,7 @@
 			<article class="information">
 				<h2>콘도정보<span>Condo Information</span></h2>
 				<p>
-					개관일 : 2026년  5월  1일<br>규모 : 0000㎡<br>주차대수 : 약 40대(투숙객 1대 무료주차)<br>객실수 : 15객실<br>대표전화 : 033-553-5500
+					개관일 : 2026년  5월  1일<br>규모 : 0000㎡<br>주차대수 : 약 40대(투숙객 1대 무료주차)<br>객실수 : 15객실<br>대표전화 : 010-9763-5561
 				</p>
 			</article>
 			<article class="map">
