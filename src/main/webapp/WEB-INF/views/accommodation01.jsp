@@ -59,6 +59,9 @@
 			<div class="swiper gallary-swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_ex_8.webp'/>" alt="8호실_전경">
+					</div>
+					<div class="swiper-slide">
 						<img src="<c:url value='/img/webp/accomm_a_1.webp'/>" alt="8호실_1">
 					</div>
 					<div class="swiper-slide">
@@ -74,6 +77,9 @@
 			</div>
 			<div thumbsSlider="" class="swiper thumbs-swiper">
 				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/accomm_ex_8.webp'/>" alt="8호실_전경">
+					</div>
 					<div class="swiper-slide">
 						<img src="<c:url value='/img/webp/accomm_a_1.webp'/>" alt="8호실_1">
 					</div>
