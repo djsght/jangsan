@@ -48,6 +48,9 @@ footer .footer-container .corp-area{ position: relative; font-size: 0;}
 footer .footer-container .corp-area ul{ margin: 25px 0 0  248px; display:inline-block; font-size: 0;}
 footer .footer-container .corp-area ul li{ display: inline-block; position: relative; padding: 0 15px;}
 footer .footer-container .corp-area ul li a{ font-size: 12px; color: #CCCCCC; vertical-align: middle; cursor: pointer;}
+footer .footer-container .corp-area ul li span{ padding-right: 10px; font-size: 12px; color: #CCCCCC; vertical-align: middle; cursor: pointer;}
+footer .footer-container .corp-area ul li a.instagram{ font-size: 0;}
+footer .footer-container .corp-area ul li a.instagram img{ width: 24px; height: 24px; filter: invert(80%) sepia(62%) saturate(1%) hue-rotate(41deg) brightness(90%) contrast(93%);}
 footer .footer-container .corp-area ul li:first-child{ padding-left: 0;}
 footer .footer-container .corp-area ul li::after{ content: ""; position: absolute; top: 50%; transform: translateY(-50%); right: 0; width: 1px; height: 10px; background-color: #CCCCCC;}
 footer .footer-container .corp-area ul li:last-child::after{content: none;}
