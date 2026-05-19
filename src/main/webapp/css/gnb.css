@@ -42,10 +42,10 @@ header .close{ display: none;}
 .bg-gnb.active{ display: block; }
 
 /* footer */
-footer{ width:100%; min-width: 1320px height: 210px; background-color: #000}
+footer{ width:100%; min-width: 1320px; background-color: #000;}
 footer .footer-container{ margin: 0 auto; width: 1200px;}
 footer .footer-container .corp-area{ position: relative; font-size: 0;}
-footer .footer-container .corp-area ul{ margin: 25px 0 0  248px; display:inline-block; font-size: 0;}
+footer .footer-container .corp-area ul{ margin: 25px 0 0 200px; display:inline-block; font-size: 0;}
 footer .footer-container .corp-area ul li{ display: inline-block; position: relative; padding: 0 15px;}
 footer .footer-container .corp-area ul li a{ font-size: 12px; color: #CCCCCC; vertical-align: middle; cursor: pointer;}
 footer .footer-container .corp-area ul li span{ padding-right: 10px; font-size: 12px; color: #CCCCCC; vertical-align: middle; cursor: pointer;}
