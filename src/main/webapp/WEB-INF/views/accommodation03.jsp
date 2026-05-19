@@ -118,7 +118,7 @@
 							<span>Room 6</span>
 						</div>
 						<div class="word-background"></div>
-						<img src="<c:url value='/img/webp/accomm_ex_6.webp'/>" alt="6호실_전경">
+						<img src="<c:url value='/img/webp/accomm_ex_6_m.webp'/>" alt="6호실_전경">
 						<button><a onclick="reserve6();">예약하기</a></button>
 					</div>
 					<div class="card">
@@ -126,7 +126,7 @@
 							<h2>7호실</h2>
 							<span>Room 7</span>
 						</div>
-						<img src="<c:url value='/img/webp/accomm_ex_7.webp'/>" alt="7호실_전경">
+						<img src="<c:url value='/img/webp/accomm_ex_7_m.webp'/>" alt="7호실_전경">
 						<button><a onclick="reserve7();">예약하기</a></button>
 					</div>
 					<div class="card">
@@ -134,7 +134,7 @@
 							<h2>9호실</h2>
 							<span>Room 9</span>
 						</div>
-						<img src="<c:url value='/img/webp/accomm_ex_9.webp'/>" alt="9호실_전경">
+						<img src="<c:url value='/img/webp/accomm_ex_9_m.webp'/>" alt="9호실_전경">
 						<button><a onclick="reserve9();">예약하기</a></button>
 					</div>
 					<div class="card">
@@ -142,7 +142,7 @@
 							<h2>10호실</h2>
 							<span>Room 10</span>
 						</div>
-						<img src="<c:url value='/img/webp/accomm_ex_10.webp'/>" alt="10호실_전경">
+						<img src="<c:url value='/img/webp/accomm_ex_10_m.webp'/>" alt="10호실_전경">
 						<button><a onclick="reserve10();">예약하기</a></button>
 					</div>
 				</div>
