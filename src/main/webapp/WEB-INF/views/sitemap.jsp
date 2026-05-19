@@ -26,10 +26,10 @@
 						<li><h3><a href="/accommodation01">객실</a></h3></li>
 						<li><a href="/accommodation01">8호실</a></li>
 						<li><a href="/accommodation02">15호실</a></li>
-						<li><a href="/accommodation03">6,7,9,10호실</a></li>
+						<li><a href="/accommodation03">6·7·9·10호실</a></li>
 						<%--li><a href="/accommodation04">2호실</a></li--%>
-						<li><a href="/accommodation05">1,3,5호실</a></li>
-						<li><a href="/accommodation06">11,12,13호실</a></li>
+						<li><a href="/accommodation05">1·3·5호실</a></li>
+						<li><a href="/accommodation06">11·12·13호실</a></li>
 						<li><a href="/accommodation07">14호실</a></li>
 					</ul>
 					<ul>
