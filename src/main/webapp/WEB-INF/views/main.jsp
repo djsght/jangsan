@@ -267,8 +267,8 @@
 	    					<img alt="typeC 사진" src="<c:url value='/img/webp/accomm_c_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Room 6,7,9,10</span>
-		    						<span>6,7,9,10호실</span>
+									<span>Room 6·7·9·10</span>
+		    						<span>6·7·9·10호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						대부분의 객실이 산 전망을 즐길 수 있고 부부, 연인들이 즐거운 시간을 가질 수 있으며 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
@@ -306,8 +306,8 @@
 	    					<img alt="typeE 사진" src="<c:url value='/img/webp/accomm_e_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Room 1,3,5</span>
-		    						<span>1,3,5호실</span>
+									<span>Room 1·3·5</span>
+		    						<span>1·3·5호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						산 전망을 즐길 수 있으며 다소 저렴하게 부부, 연인들 끼리 힐링 할 수 있는 객실로 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
@@ -327,8 +327,8 @@
 	    					<img alt="typeF 사진" src="<c:url value='/img/webp/accomm_f_1.webp'/>">
 	    					<div class="card-container">
 		    					<div class="card-title">
-									<span>Room 11,12,13</span>
-		    						<span>11,12,13호실</span>
+									<span>Room 11·12·13</span>
+		    						<span>11·12·13호실</span>
 		    					</div>
 		    					<div class="card-content">
 		    						산 전망을 즐길 수 있으며 다소 저렴하게 가족들끼리 힐링 할 수 있는 객실입니다.
