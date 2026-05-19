@@ -87,7 +87,7 @@
     		</div>
 			<article class="detail-box">
 				<h2>8호실<span>Room 8</span></h2>
-				<p>저렴하면서 실속있게 따뜻한 온돌방을 즐길 수 있는 객실입니다.</p>
+				<p>소중한 사람과 함께 머물기 좋은 아늑한 2인실로, 복잡한 일상을 잊게 하는 편안한 쉼터를 제공합니다.</p>
 				<button><a onclick="reserve8();">예약하기</a></button>
 				<div class="detail-info eight">
 					<h3>객실</h3>

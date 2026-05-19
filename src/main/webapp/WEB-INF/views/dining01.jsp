@@ -86,7 +86,7 @@
     		</div>
 			<article class="detail-box etc menu">
 				<h2>장산 레스토랑<span>Jangsan Restaurant</span></h2>
-				<p>매일 매일 제공되는 신선한 재료로 세련된 셰프의 손끝에서 만들어진 품격있는 요리를 즐길 수 있습니다.</p>
+				<p>특급 호텔 레스토랑의 검증된 요리법과 깊은 손맛을 그대로 담아, 품격 높은 최고의 맛을 선사합니다.</p>
 				<button><a href="/pdf/Korean restaurant menu.pdf" target="_blank">메뉴</a></button>
 				<div class="detail-info">
 					<h3>운영시간</h3>

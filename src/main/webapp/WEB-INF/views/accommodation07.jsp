@@ -111,7 +111,7 @@
     		</div>
 			<article class="detail-box">
 				<h2>14호실<span>Room 14</span></h2>
-				<p>모던한 화이트톤 스타일의 객실로 가족들, 지인들끼리 여유롭게 지낼 수 있는 패밀리 객실 입니다.</p>
+				<p>단체 모임이나 가족 여행객이 함께 투숙하며 소중한 추역을 쌓기 좋은 넓고 쾌적한 대형 객실입니다.</p>
 				<button><a onclick="reserve14();">예약하기</a></button>
 				<div class="detail-info">
 					<h3>객실</h3>

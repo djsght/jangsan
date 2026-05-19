@@ -87,7 +87,7 @@
     		</div>
 			<article class="detail-box">
 				<h2>15호실<span>Room 15</span></h2>
-				<p>침실이 1개인 객실로 가성비가 좋은 객실입니다.</p>
+				<p>아름다운 풍경을 바라보며 연인이나 친구와 함께 즐거운 추억을 채워갈 수 있는 아늑한 2인 전용 공간입니다.</p>
 				<button><a onclick="reserve15();">예약하기</a></button>
 				<div class="detail-info">
 					<h3>객실</h3>

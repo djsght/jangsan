@@ -233,7 +233,7 @@
 		    						<span>8호실</span>
 		    					</div>
 		    					<div class="card-content">
-		    						유럽풍의 엔틱 가구로 된 넓은 공간에서 부부, 연인들이 행복한 시간을 가질 수 있으며 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
+		    						소중한 사람과 함께 머물기 좋은 아늑한 2인실로, 복잡한 일상을 잊게 하는 편안한 쉼터를 제공합니다.
 		    					</div>
 		    					<a href="/accommodation01">더 보기</a>
 		    					<div class="accomm-gallary">
@@ -252,7 +252,7 @@
 		    						<span>15호실</span>
 		    					</div>
 		    					<div class="card-content">
-		    						유럽풍의 엔틱 가구로 된 넓은 공간에서 산 전망을 즐기면서 가족들끼리 힐링의 시간을 가질 수 있는 객실입니다.
+		    						아름다운 풍경을 바라보며 연인이나 친구와 함께 즐거운 추억을 채워갈 수 있는 아늑한 2인 전용 공간입니다.
 		    					</div>
 		    					<a href="/accommodation02">더 보기</a>
 		    					<div class="accomm-gallary">
@@ -271,7 +271,7 @@
 		    						<span>6·7·9·10호실</span>
 		    					</div>
 		    					<div class="card-content">
-		    						대부분의 객실이 산 전망을 즐길 수 있고 부부, 연인들이 즐거운 시간을 가질 수 있으며 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
+		    						창밖으로 펼쳐지는 청정 함백산의 풍경을 감상하며 가족이나 연인이 아늑하게 머물기 좋은 최적의 힐링 객실입니다.
 		    					</div>
 		    					<a href="/accommodation03">더 보기</a>
 		    					<div class="accomm-gallary">
@@ -292,7 +292,7 @@
 		    						<span>2호실</span>
 		    					</div>
 		    					<div class="card-content">
-		    						다소 넓은 공간으로 가족들이 여유롭게 지낼 수 있는 객실입니다.
+		    						함백산 자락에서 친구나 가족들과 함께 프라이빗한 쉼을 즐길 수 있는, 공간 활용도가 높은 아늑한 객실입니다.
 		    					</div>
 		    					<a href="/accommodation04">더 보기</a>
 		    					<div class="accomm-gallary">
@@ -310,7 +310,7 @@
 		    						<span>1·3·5호실</span>
 		    					</div>
 		    					<div class="card-content">
-		    						산 전망을 즐길 수 있으며 다소 저렴하게 부부, 연인들 끼리 힐링 할 수 있는 객실로 두 개의 침실로 되어 있어 추가 숙박이 가능합니다.
+		    						넉넉하고 여유로운 공간 구성을 갖추어 가족이나 소규모 모임 여행객이 함께 모여 편안한 휴식과 추억을 쌓기 좋은 객실입니다.
 		    					</div>
 		    					<a href="/accommodation05">더 보기</a>
 		    					<div class="accomm-gallary">
@@ -331,7 +331,7 @@
 		    						<span>11·12·13호실</span>
 		    					</div>
 		    					<div class="card-content">
-		    						산 전망을 즐길 수 있으며 다소 저렴하게 가족들끼리 힐링 할 수 있는 객실입니다.
+		    						확 트인 넓은 거실과 쾌적한 공간을 갖추어 가족이나 단체 여행객이 다 함께 둘러앉아 편안하게 머무르며 친목을 도모하기 좋은 객실입니다.
 		    					</div>
 		    					<a href="/accommodation06">더 보기</a>
 		    					<div class="accomm-gallary">
@@ -352,7 +352,7 @@
 		    						<span>14호실</span>
 		    					</div>
 		    					<div class="card-content">
-		    						작지만 두 개의 침실로 된 공간 활용도가 높은 객실입니다.
+		    						단체 모임이나 가족 여행객이 함께 투숙하며 소중한 추역을 쌓기 좋은 넓고 쾌적한 대형 객실입니다.
 		    					</div>
 		    					<a href="/accommodation07">더 보기</a>
 		    					<div class="accomm-gallary">
@@ -382,7 +382,7 @@
 					<span>장산 레스토랑</span>
 				</div>
 				<div class="card-content">
-					주방장이 직접 고른 신선한 제철 식자재를 사용하여 한껏 정성스럽게 만들어진 음식을 맛 볼 수 있습니다.
+					특급 호텔 레스토랑의 검증된 요리법과 깊은 손맛을 그대로 담아, 품격 높은 최고의 맛을 선사합니다.
 				</div>
 			</div>
 			<div class="dining-picture">
