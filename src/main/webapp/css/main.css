@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.main-picture{ position: relative; width: 100%; min-width: 1320px; height: 850px; background: no-repeat center; background-image: url("/img/webp/main.webp"); background-size: cover;}
+.main-picture{ position: relative; width: 100%; min-width: 1320px; height: 850px;}
 /* 임시 글귀 용*/
 .main-picture > p{ position: absolute; left: 50%; transform: translateX(-50%); bottom: 120px; width: 100%; font-size: 40px; color: #FFFFFF; text-align: center; text-shadow: 0 5px 6px rgba(0,0,0); font-family: NanumMyeongjo;}
 .main-picture > p::before{ content: url(/img/jangsan-logo-temp.png); padding-right: 15px; font-size: 0; vertical-align: -13px;}
@@ -35,6 +35,8 @@
 .dining{ background-color: #fff;}
 .facil{ background-color: #F9F9F9;}
 .swiper{ width: 1200px; height: 675px;}
+.swiper.main-picture-swiper{width: 100%; height: 100%;}
+.swiper.main-picture-swiper img{width: 100%; height: 100%; object-fit: cover; object-position: center center;} 
 .swiper.accommSwiper, .swiper.facilSwiper{ height: 530px;}
 .swiper-slide{ text-align: center;}
 .swiper-slide .so-card{ background: #fff; font-size: 0;}

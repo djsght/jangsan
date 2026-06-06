@@ -3,7 +3,7 @@
 
 body{ position: relative;}
 
-header{ position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 1320px; height: 160px; margin: 0 auto; z-index: 2;}
+header{ position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 1320px; height: 160px; margin: 0 auto; z-index: 3;}
 header > h1{ position: absolute; top: 28px; left: 50%; transform:translateX(-50%); font-size: 0;}
 header > h1 > a{ display: block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; font-size: 0;}
 header > h1 > span{ display: block; padding-left: 75px; font-weight: 700; color: #fff;}
@@ -36,9 +36,9 @@ header nav .quick-menu > li:last-child::after{ content: none; }
 header .btn-nav{ display: none;} 
 header .close{ display: none;}
 
-.bg-header{ position: absolute; left: 0; right: 0; top: 0; min-width: 1320px; height: 160px; background-color: rgba(0, 0, 0, .4); z-index: 1;}
+.bg-header{ position: absolute; left: 0; right: 0; top: 0; min-width: 1320px; height: 160px; background-color: rgba(0, 0, 0, .4); z-index: 2;}
 .bg-header.active{ background-color: rgba(0, 0, 0, .7);}
-.bg-gnb{ display: none; position: absolute; left: 0; right: 0; top: 160px; height: 430px; background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0, rgba(66, 66, 66, .7) 400px, rgba(66,66,66,0)); z-index: 1;}
+.bg-gnb{ display: none; position: absolute; left: 0; right: 0; top: 160px; height: 430px; background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0, rgba(66, 66, 66, .7) 400px, rgba(66,66,66,0)); z-index: 2;}
 .bg-gnb.active{ display: block; }
 
 /* footer */

@@ -15,6 +15,22 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		let playState = true;
+		var swiper = new Swiper('.main-picture-swiper', {
+	            // 기본 옵션 설정
+	            direction: 'horizontal', // 슬라이드 방향 ('horizontal' 또는 'vertical')
+	            loop: true,              // 무한 반복 여부
+				speed: 800,
+				autoplay: {
+			        delay: 5000,             // 5초(5000ms)마다 자동으로 넘겨집니다.
+			        disableOnInteraction: false, // 유저가 마우스로 슬라이드를 만져도 자동 넘기기가 멈추지 않도록 설정
+			    },
+				allowTouchMove: false,	//
+				effect: 'fade',
+			    fadeEffect: {
+			        crossFade: true // 슬라이드 전환 시 뒤에 잔상이 남지 않도록 겹침 처리
+			    },
+	        });
+		
 		var swiper = new Swiper(".accommSwiper", {
 			slidesPerView: 1,
 			spaceBetween: 0,
@@ -204,6 +220,18 @@
 </script>
 <body>
 	<div class="main-picture">
+		<div class="swiper main-picture-swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img alt="메인 사진1" src="<c:url value='/img/webp/main_1.webp'/>"></div>
+				<div class="swiper-slide"><img alt="메인 사진2" src="<c:url value='/img/webp/main_2.webp'/>"></div>
+				<div class="swiper-slide"><img alt="메인 사진3" src="<c:url value='/img/webp/main_3.webp'/>"></div>
+				<div class="swiper-slide"><img alt="메인 사진4" src="<c:url value='/img/webp/main_4.webp'/>"></div>
+				<div class="swiper-slide"><img alt="메인 사진5" src="<c:url value='/img/webp/main_5.webp'/>"></div>
+				<div class="swiper-slide"><img alt="메인 사진6" src="<c:url value='/img/webp/main_6.webp'/>"></div>
+				<div class="swiper-slide"><img alt="메인 사진7" src="<c:url value='/img/webp/main_7.webp'/>"></div>
+				<div class="swiper-slide"><img alt="메인 사진8" src="<c:url value='/img/webp/main_8.webp'/>"></div>
+			</div>	
+		</div>
 		<div class="reservation-bar-container">
 			<ul class="reservation-bar">
 				<li class="search-button"><a onclick="reserve();">예약하기</a></li>
