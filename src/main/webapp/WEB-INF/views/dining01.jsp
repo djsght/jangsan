@@ -60,6 +60,72 @@
 					<div class="swiper-slide">
 						<img src="<c:url value='/img/webp/restaurant_5.webp'/>">
 					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_6.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_7.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_8.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_9.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_10.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_11.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_12.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_13.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_14.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_15.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_16.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_17.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_18.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_19.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_20.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_21.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_22.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_23.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_24.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_25.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_26.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_27.webp'/>">
+					</div>
 				</div>
 				<div id="gallary-swiper-next" class="swiper-button-next"></div>
 				<div id="gallary-swiper-prev" class="swiper-button-prev"></div>
@@ -81,6 +147,72 @@
 					</div>
 					<div class="swiper-slide">
 						<img src="<c:url value='/img/webp/restaurant_5.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_6.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_7.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_8.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_9.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_10.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_11.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_12.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_13.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_14.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_15.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_16.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_17.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_18.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_19.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_20.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_21.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_22.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_23.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_24.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_25.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_26.webp'/>">
+					</div>
+					<div class="swiper-slide">
+						<img src="<c:url value='/img/webp/restaurant_27.webp'/>">
 					</div>
 				</div>
     		</div>

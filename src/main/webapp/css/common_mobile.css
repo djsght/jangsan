@@ -88,6 +88,10 @@ article h2 span{ padding-top: .1rem; font-size: .8rem;}
 .detail-box.etc .detail-info .note + ul{ grid-column: auto;}
 .detail-box.etc .detail-info .note.first{ margin-top: 0;}
 
+@media (max-width: 719px) {
+	.swiper.gallary-swiper .swiper-pagination{ display: none;}
+}
+
 @media( max-width: 410px){
 	.detail-box.etc.menu .line-break{ display: block;}	
 }

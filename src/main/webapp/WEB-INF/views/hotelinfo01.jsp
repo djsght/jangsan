@@ -21,7 +21,7 @@
 	</div>
 	<main>
 		<div class="container">
-			<img src="<c:url value='/img/webp/main.webp'/>" alt="장산콘도 전경">
+			<img src="<c:url value='/img/webp/greetings.webp'/>" alt="장산콘도 전경">
 			<article class="greetings">
 				<h2>인사말<span>Greetings</span></h2>
 				<strong>안녕하세요.장산콘도를 찾아주셔서 감사합니다.</strong>
