@@ -160,7 +160,7 @@
 // 		console.log('# children : '+children);
 		
 //		var url = 'https://codybooking.com/reservation/?code='+hcode+'&checkIn='+start_date+'&checkOut='+end_date+'&adult='+adults+'&child='+children+'&room='+rooms;
-		var url = 'https://pcmap.place.naver.com/restaurant/12382930/booking?entry=pll&from=map&fromNxList=true&fromPanelNum=1&additionalHeight=76&timestamp=202605051459&locale=ko&svcName=map_pcv5';
+		var url = 'https://booking.naver.com/booking/3/bizes/1657882?area=pll';
 		window.open(url, "_blank");
 	}
 	

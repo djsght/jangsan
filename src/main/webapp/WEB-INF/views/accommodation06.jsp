@@ -39,15 +39,15 @@
 		}); 
 	}); 
 	function reserve11(){
-		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630208?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		var url = 'https://booking.naver.com/booking/3/bizes/1657882/items/7696793?area=pll';
 		window.open(url, "_blank");
 	}
 	function reserve12(){
-		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630209?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		var url = 'https://booking.naver.com/booking/3/bizes/1657882/items/7696794?area=pll';
 		window.open(url, "_blank");
 	}
 	function reserve13(){
-		var url = 'https://m.booking.naver.com/booking/3/bizes/272467/items/7630211?theme=place&service-target=map-pc&lang=ko&area=pll&map-search=1';
+		var url = 'https://booking.naver.com/booking/3/bizes/1657882/items/7696795?area=pll';
 		window.open(url, "_blank");
 	}
 </script>
