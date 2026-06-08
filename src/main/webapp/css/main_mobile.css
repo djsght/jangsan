@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-.main-picture{ min-width: initial; height: auto; background: url("/img/webp/main_m.webp") no-repeat center center; background-size: cover;}
+.main-picture{ min-width: initial; height: auto; }
 /* 임시 글귀 용*/
 .main-picture > p{ bottom: auto; top: 5rem; font-size: 1rem;}
 .main-picture > p::before{ content: url(/img/jangsan-logo_M.png); padding-right: .25rem; vertical-align: -.15rem;}
 
-.reservation-bar-container{ position: static; transform: none; padding-top: 20rem; width: 100%; height: auto; background-color: transparent; }
+.reservation-bar-container{ position: static; transform: none; width: 100%; height: auto; background-color: transparent; }
 .reservation-bar{ display: flex; flex-wrap: wrap;}
 
 .reservation-bar li{ flex: 1 1 33%; padding: 0; width: auto; height: 3.5rem; vertical-align: baseline;}
