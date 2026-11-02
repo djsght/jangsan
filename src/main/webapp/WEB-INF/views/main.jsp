@@ -160,7 +160,8 @@
 // 		console.log('# children : '+children);
 		
 //		var url = 'https://codybooking.com/reservation/?code='+hcode+'&checkIn='+start_date+'&checkOut='+end_date+'&adult='+adults+'&child='+children+'&room='+rooms;
-		var url = 'https://booking.naver.com/booking/3/bizes/1657882?area=pll';
+// 		var url = 'https://booking.naver.com/booking/3/bizes/1657882?area=pll';
+		var url = 'https://booking.pension.onda.me/139467/calendar';
 		window.open(url, "_blank");
 	}
 	

@@ -39,8 +39,29 @@
 		}); 
 	}); 
 	function reserve15(){
-		var url = 'https://booking.naver.com/booking/3/bizes/1657882/items/7696797?area=pll';
-		window.open(url, "_blank");
+		// 1. 오늘 날짜 구하기
+	    const today = new Date();
+	    
+	    // 2. 내일 날짜 구하기 (오늘 날짜 + 1일)
+	    const tomorrow = new Date();
+	    tomorrow.setDate(today.getDate() + 1);
+
+	    // 3. YYYY-MM-DD 형식으로 변환하는 함수
+	    function formatDate(date) {
+	        const year = date.getFullYear();
+	        const month = String(date.getMonth() + 1).padStart(2, '0');
+	        const day = String(date.getDate()).padStart(2, '0');
+	        return `${year}-${month}-${day}`;
+	    }
+
+	    const checkin = formatDate(today);
+	    const checkout = formatDate(tomorrow);
+
+	    // 4. 동적으로 계산된 날짜를 포함한 URL 생성
+	    var url = 'https://booking.pension.onda.me/139467/calendar/book?checkin='+checkin+'&checkout='+checkout+'&rids=1573750&entry=calendar';
+	    
+	    // 5. 새 창으로 열기
+	    window.open(url, "_blank");
 	}
 </script>
 <body>
