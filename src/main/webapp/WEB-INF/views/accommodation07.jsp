@@ -46,19 +46,19 @@
 	    const tomorrow = new Date();
 	    tomorrow.setDate(today.getDate() + 1);
 
-	    // 3. YYYY-MM-DD 형식으로 변환하는 함수
+	    // 3. YYYY-MM-DD 형식으로 변환하는 함수 (작은따옴표 스타일 적용)
 	    function formatDate(date) {
 	        const year = date.getFullYear();
 	        const month = String(date.getMonth() + 1).padStart(2, '0');
 	        const day = String(date.getDate()).padStart(2, '0');
-	        return `${year}-${month}-${day}`;
+	        return year + '-' + month + '-' + day;
 	    }
 
 	    const checkin = formatDate(today);
 	    const checkout = formatDate(tomorrow);
 
 	    // 4. 동적으로 계산된 날짜를 포함한 URL 생성
-	    var url = 'https://booking.pension.onda.me/139467/calendar/book?checkin=${checkin}&checkout=${checkout}&rids=1573748&entry=calendar';
+	    var url = 'https://booking.pension.onda.me/139467/calendar/book?checkin=' + checkin + '&checkout=' + checkout + '&rids=1573748&entry=calendar';
 	    
 	    // 5. 새 창으로 열기
 	    window.open(url, "_blank");
@@ -171,7 +171,7 @@
 						</li>
 						<li>
 							<h4>수용인원(기준/최대)</h4>
-							<span>14인 / 16인</span>
+							<span>11인 / 13인</span>
 						</li>
 						<li>
 							<h4>객실크기</h4>
@@ -191,7 +191,7 @@
 					<h4>추가요금안내 및 유의사항</h4>
 					<p>- 객식 예약 후 결제는 24시간이내에 해주시면 됩니다.</p>
 					<p>- 객실 예약은 예약일 당일 취소 불가하며 하루전 취소하시면 50% 공제, 이틀전 취소하시면 10% 공제 됩니다.</p>
-					<p>- 객실 이용 시 추가인원이 발생 시 추가인원 1인당 1만원씩 추가되며, 추가인원에 맞게끔 침구류를 제공해드리고 있습니다.</p>
+					<p>- 객실 이용 시 추가인원이 발생 시 추가인원 1인당 2만원씩 추가되며, 추가인원에 맞게끔 침구류를 제공해드리고 있습니다.</p>
 					<p>- 홈페이지에 게시된 객실 사진은 대표객실의 사진이므로 예약하시는 객실과 다를 수 있습니다.</p>
 				</div>
 			</article>
