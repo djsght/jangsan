@@ -58,7 +58,7 @@
 	    const checkout = formatDate(tomorrow);
 
 	    // 4. 동적으로 계산된 날짜를 포함한 URL 생성
-	    var url = 'https://booking.pension.onda.me/139467/calendar/book?checkin='+checkin+'&checkout='+checkout+'&rids=1573738&entry=calendar';
+	    var url = 'https://booking.pension.onda.me/139467/calendar/book?checkin=${checkin}&checkout=${checkout}&rids=1573738&entry=calendar';
 	    
 	    // 5. 새 창으로 열기
 	    window.open(url, "_blank");
@@ -83,7 +83,7 @@
 	    const checkout = formatDate(tomorrow);
 
 	    // 4. 동적으로 계산된 날짜를 포함한 URL 생성
-	    var url = 'https://booking.pension.onda.me/139467/calendar/book?checkin='+checkin+'&checkout='+checkout+'&rids=1573739&entry=calendar';
+	    var url = 'https://booking.pension.onda.me/139467/calendar/book?checkin=${checkin}&checkout=${checkout}&rids=1573739&entry=calendar';
 	    
 	    // 5. 새 창으로 열기
 	    window.open(url, "_blank");
@@ -108,7 +108,7 @@
 	    const checkout = formatDate(tomorrow);
 
 	    // 4. 동적으로 계산된 날짜를 포함한 URL 생성
-	    var url = 'https://booking.pension.onda.me/139467/calendar/book?checkin='+checkin+'&checkout='+checkout+'&rids=1573740&entry=calendar';
+	    var url = 'https://booking.pension.onda.me/139467/calendar/book?checkin=${checkin}&checkout=${checkout}&rids=1573740&entry=calendar';
 	    
 	    // 5. 새 창으로 열기
 	    window.open(url, "_blank");
