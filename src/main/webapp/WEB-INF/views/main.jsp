@@ -228,8 +228,6 @@
 				<div class="swiper-slide"><img alt="메인 사진3" src="<c:url value='/img/webp/main_3.webp'/>"></div>
 				<div class="swiper-slide"><img alt="메인 사진4" src="<c:url value='/img/webp/main_4.webp'/>"></div>
 				<div class="swiper-slide"><img alt="메인 사진5" src="<c:url value='/img/webp/main_5.webp'/>"></div>
-				<div class="swiper-slide"><img alt="메인 사진6" src="<c:url value='/img/webp/main_6.webp'/>"></div>
-				<div class="swiper-slide"><img alt="메인 사진7" src="<c:url value='/img/webp/main_7.webp'/>"></div>
 				<div class="swiper-slide"><img alt="메인 사진8" src="<c:url value='/img/webp/main_8.webp'/>"></div>
 			</div>	
 		</div>
